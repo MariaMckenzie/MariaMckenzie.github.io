@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>My Website</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<link rel="icon" href="/static/images/website_logo.png" />
-<style>
-</style>
-<script src=""></script>
-<body>
-<img src="static/images/website_img.png" alt="LA" style="width:100%">
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nothing You Could Do">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="static/styles/styles.css">
+        <link rel="icon" href="/static/images/website_logo_2.png" />
+        <script src=""></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="active_link">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="templates/about.html">About</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="templates/projects.html">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="templates/contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- <div id="page_heading_div">
+            <h1 class="text-center" id="page_heading">Welcome!</h1>
+             <img src="static/images/website_welcome.png" alt="Website Logo" id="home_img2" class="mx-auto d-block"> 
+        </div> -->
 
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
-</div>
+        <section id="home_img_section">
+            <img src="static/images/website_logo.png" alt="Website Logo" id="home_img" class="mx-auto d-block">
+        </section>
 
-</body>
+        <section  class="justify-content-center" id="about_me_section">
+            <div id="about_me_section_div1">
+                <h2 class="text-center">Hi There, I'm Maria</h2>
+                <img src="static/images/website_img_3.png" alt="Website Logo" id="about_me_img" class="mx-auto d-block">
+            </div>
+            <div>
+                <h4></h4>
+            </div>
+        </section>
+        
+    </body>
 </html>
