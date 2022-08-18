@@ -1,0 +1,85 @@
+nav, p, h1, h2, h3, h4, h5 {
+    font-family: 'Nothing You Could Do';
+    font-weight: bold;
+}
+
+nav {
+    background-color: white;
+    font-size: 18px;
+}
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: #507F85;
+}
+
+.nav-link:hover {
+    color: #B57B0F;
+    text-decoration: underline;
+}
+
+#active_link {
+    color: #B57B0F;
+    text-decoration: underline;
+}
+
+#home_img2 {
+    width: 25%;
+}
+
+#home_img {
+    width: 40%;    
+    animation: pulsing 8s infinite;
+}
+  
+@keyframes pulsing {
+    0% {
+        transform: scale(0.8, 0.8)
+    }
+    50% {
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+#home_img_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#page_heading_section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#page_heading {
+    font-family: 'Nothing You Could Do';
+    font-style: italic;
+    font-size: 56px;
+    color: #749FA5;
+}
+
+/* ABOUT ME SECTION*/
+#about_me_section {
+    background-color: #B9DBE5;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#about_me_section_div1 {
+    padding-top: 20px;
+    color: #B57B0F;
+}
+
+#about_me_img {
+    width: 300px;
+    padding-top: 20px;
+}
