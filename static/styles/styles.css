@@ -1,11 +1,11 @@
 /* STYLES FOR ALL PAGES */
 nav, p, h1, h2, h3, h4 {
-    font-family: 'Poiret One';
+    font-family: "Poiret One";
     font-weight: bold;
 }
 
 h5 {
-    font-family: 'Overlock';
+    font-family: "Overlock";
 }
 
 nav {
@@ -74,8 +74,8 @@ nav li {
 /* ABOUT ME SECTION*/
 #about_me_section {
     background-color: #B9DBE5;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -88,4 +88,32 @@ nav li {
 #about_me_img {
     width: 300px;
     padding-top: 20px;
+}
+
+/* SKILLS AND EXPERIENCE SECTION*/
+#skills_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#skills_section_div1 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #507F85;
+}
+
+#skills_section_div2 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #507F85;
+}
+
+#skills_section_div2_col1 {
+    border-right: #507F85 1PX SOLID;
+}
+
+#skills_section_div2_col2 {
+    border-left: #507F85 1PX SOLID;
 }
