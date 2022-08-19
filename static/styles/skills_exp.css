@@ -1,0 +1,48 @@
+/* Styles for skills and experience section of home page */
+
+/* Desktop View */
+#skills_exp_section {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#skills_section_div1 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #507F85;
+}
+
+#skills_section_div2 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #507F85;
+}
+
+#skills_section_div2 ul {    
+    list-style-type: none;
+}
+
+#skills_section_div2 li {    
+    padding-top: 20px;
+}
+
+.skill_name {
+    font-size: 17px;
+}
+
+#skills_section_div2_col1 {
+    border-right: #507F85 1px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#skills_section_div2_col2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Tablet View */
+
+/* Mobile View */
