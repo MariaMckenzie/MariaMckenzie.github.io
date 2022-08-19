@@ -1,0 +1,45 @@
+/* STYLES FOR ALL PAGES */
+nav, p, h1, h2, h3, h4 {
+    font-family: "Poiret One";
+    font-weight: bold;
+}
+
+h5 {
+    font-family: "Overlock";
+}
+
+nav {
+    background-color: white;
+    font-size: 21px;
+}
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: #507F85;
+}
+
+.nav-link:hover {
+    color: #B57B0F;
+    text-decoration: underline;
+}
+
+#active_link {
+    color: #B57B0F;
+    text-decoration: underline;
+}
+
+#page_heading_section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#page_heading {
+    font-size: 52px;
+    font-weight: bold;
+    color: #749FA5;
+}
