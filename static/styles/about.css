@@ -1,0 +1,39 @@
+/* Styles for about me section of home page */
+
+/* Desktop View */
+#about_me_section {
+    background-color: #B9DBE5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#about_me_section_div1 {
+    padding-top: 20px;
+    color: #B57B0F;
+}
+
+#about_me_img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+#learn_more_btn a {
+    color: white;
+    border-color: #B57B0F;
+}
+
+#learn_more_btn a:hover {
+    color: white;
+    border-color: #B57B0F;
+    text-decoration: none;
+}
+
+#learn_more_btn {
+    background-color: #B57B0F;
+}
+
+/* Tablet View */
+
+/* Mobile View */
