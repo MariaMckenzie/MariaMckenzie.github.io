@@ -1,10 +1,10 @@
 /* STYLES FOR ALL PAGES */
-nav, p, h1, h2, h3, h4 {
+nav, h1, h2, h3, h4 {
     font-family: "Poiret One";
     font-weight: bold;
 }
 
-h5 {
+h5, p {
     font-family: "Overlock";
 }
 
