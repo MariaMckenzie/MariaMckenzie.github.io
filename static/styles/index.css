@@ -8,6 +8,8 @@
 #home_img {
     width: 40%;    
     animation: pulsing 8s infinite;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
   
 @keyframes pulsing {
