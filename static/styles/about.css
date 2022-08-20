@@ -19,21 +19,6 @@
     padding-top: 20px;
 }
 
-#learn_more_btn a {
-    color: white;
-    border-color: #B57B0F;
-}
-
-#learn_more_btn a:hover {
-    color: white;
-    border-color: #B57B0F;
-    text-decoration: none;
-}
-
-#learn_more_btn {
-    background-color: #B57B0F;
-}
-
 /* Tablet View */
 
 /* Mobile View */
