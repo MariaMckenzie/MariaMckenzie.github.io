@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
 
-body {
+:root {
     /* colours scheme */
     --color1: #DABD87;
     --color2: #B57B0F;
@@ -70,6 +70,54 @@ body {
     border: var(--color2) 1.5px solid;
 }
 
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #lg-nav {
+        visibility: hidden;
+    }
+
+    #md-sm-nav {
+        visibility: visible;
+    }
+
+    #menu {
+        height: 25px;
+        border: var(--color5) 1.5px solid;
+        border-radius: 7px;
+        padding: 3px 7px;
+    }
+    
+    #menu:hover {
+        border: var(--color2) 1.5px solid;
+    }
+    
+    .dropdown-item {
+        color: var(--color6);
+        font-weight: 600;
+    }
+    
+    .dropdown-item:hover {
+        color: var(--color6);
+        background-color: var(--color3);
+    }
+    
+    #active_item {
+        color: var(--color2);
+    }
+}
+
+/* applies to large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #lg-nav {
+        visibility: visible;
+        margin-top: 10px;
+    }
+    
+    #md-sm-nav {
+        visibility: hidden;
+    }
+}
+
 
 
 
@@ -100,10 +148,7 @@ body {
 }
 
 #home_img_section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
-/* Tablet View */
-
-/* Mobile View */
