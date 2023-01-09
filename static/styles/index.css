@@ -1,3 +1,78 @@
+/* STYLES FOR ALL PAGES */
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+body {
+    /* colours scheme */
+    --color1: #DABD87;
+    --color2: #B57B0F;
+    --color3: #B9DBE5;
+    --color4: #A1C2C7;
+    --color5: #749FA5;
+    --color6: #507F85;
+    --black: #212529;
+
+    /* fonts */
+    --font1: "Roboto";
+    --font2: "Poppins";
+    --font3: "Poiret One";
+}
+
+body {
+    font-family: var(--font1);
+    font-size: 12px;
+}
+
+/* nav bar */
+.navbar {
+    font-family: var(--font3);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: var(--color6);
+}
+
+.nav-link:hover, #active_link {
+    color: var(--color2);
+    text-decoration: overline;
+}
+
+#next-arrow {
+    color: var(--color1);
+}
+
+#next-arrow:hover {
+    color: var(--color2);
+}
+
+#link-to-abt-page {
+    text-decoration: none;
+    color: var(--color1);
+    padding: 5px 10px;
+    border: var(--color1) 1.5px solid;
+    border-radius: 15px;
+}
+
+#link-to-abt-page:hover {
+    color: var(--color2);
+    border: var(--color2) 1.5px solid;
+}
+
+
+
+
 /* Styles for section 1 of home page */
 
 /* Desktop View */
