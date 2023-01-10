@@ -1,24 +1,41 @@
-/* Styles for about me section of home page */
+/* Styles for About.html */
 
-/* Desktop View */
-#about_me_section {
-    background-color: #B9DBE5;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 70px;
-    padding-right: 70px;
+/* general styles */
+
+/* applies to large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #about-me {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    #about-me h1 {
+        font-family: var(--font3);
+        color: var(--color5);
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    #about-me h1:hover {
+        color: var(--color2);
+    }
+
+    #about-me h3 {
+        font-family: var(--font1);
+        color: var(--color4);
+        font-size: 20px;
+    }
+
+    #about-me p {
+        font-family: var(--font1);
+        color: var(--black);
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0 150px;
+    }
+
+    #about_me_img {
+        margin-top: 20px;
+        height: 200px;
+    }
 }
-
-#about_me_section_div1 {
-    padding-top: 20px;
-    color: #B57B0F;
-}
-
-#about_me_img {
-    width: 300px;
-    padding-top: 20px;
-}
-
-/* Tablet View */
-
-/* Mobile View */

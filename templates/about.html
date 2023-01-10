@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../static/images/website_logo_2.png"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/styles/index.css">
+        <link rel="stylesheet" href="../static/styles/about.css">
+        <link rel="stylesheet" href="../static/styles/skills_exp.css">
+        
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v6.2.1/js/all.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+        <!-- Navigation bars -->
+        <div>
+            <!-- for medium and small devices -->
+            <nav class="navbar navbar-expand fixed-top py-5 px-3" id="md-sm-nav">
+                <div class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="fas fa-bars" id="menu"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item my-1" href="../index.html">Home</a></li>
+                      <li><a class="dropdown-item my-1" href=""  id="active_item">About</a></li>
+                      <li><a class="dropdown-item my-1" href="./portfolio.html">Portfolio</a></li>
+                      <li><a class="dropdown-item my-1" href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- for large devices -->
+            <nav class="navbar navbar-expand fixed-top py-4 my-0" id="lg-nav">
+                <div class="container-fluid justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href=""  id="active_link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Section 1 -->
+        <section class="container-fluid text-center" id="about-me">
+            <div>
+                <h1>Hi there, I'm Maria</h1>
+                <h3 class="mb-4">Software Developer | UI/UX Designer | QA</h3>
+                <img src="../static/images/img4.png" alt="My Photo" id="about_me_img" class="mx-auto d-block mb-3">
+                <p class="mb-5">
+                    I am a Bachelor of Science Degree holder with a Major in Software Engineering and Minor in Economics. 
+                    I am passionate about producing simple designs that ensure accessibility while enhancing the overall usability of a product/design.
+                    I also enjoy creating applications that are aesthetically pleasing and practical while ensuring they are of high quality and meet the 
+                    predefined requirements.
+                </p>
+            </div>
+
+            <div class="container d-flex justify-content-end">
+                <a id="link-to-next-page" href="#skills-section">View my skills
+                    <span class="fa fa-angle-double-down mx-1" id="next-arrow"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section  class="text-center" id="skills-section">
+            <div id="skills-section-div1">
+                <h2 class="text-center">Skills and Competencies</h2>
+            </div>
+            <div id="skills-section-div2">
+                <!-- Skills / Keywords - Development -->
+                <div class="mb-4" id="skills-dev">
+                    <div class="container d-inline py-2 px-2 mx-1 skill">HTML</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">CSS</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">JavaScript</div>
+                    <!-- <div class="container d-inline py-2 px-2 mx-1 skill">Python</div> -->
+                </div>
+                
+                <!-- Skills / Keywords - UI Design -->
+                <div class="mb-4" id="skills-ui">
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Miro</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Figma</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Adobe XD</div>
+                </div>
+
+                <!-- Skills / Keywords - Frameworks -->
+                <div class="mb-4" id="skills-fw">
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Bootstrap</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">NodeJs</div>
+                    <!-- <div class="container d-inline py-2 px-2 mx-1 skill">Express</div> -->
+                    <div class="container d-inline py-2 px-2 mx-1 skill">React</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">VueJs</div>
+                </div>
+
+                <!-- Skills / Keywords - Software Testing -->
+                <div class="mb-4" id="skills-qa">
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Cypress</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">WebDriver</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">BrowserStack</div>
+                    <div class="container d-inline py-2 px-2 mx-1 skill">Postman</div>
+                </div>
+            </div>
+            
+            <div class="container d-flex justify-content-end">
+                <a id="link-to-next-page" href="./portfolio.html">View my portfolio
+                    <span class="fa fa-angle-double-right mx-1" id="next-arrow"></span>
+                </a>
+            </div>
+        </section>
+
+        
+        
+    </body>
+</html>

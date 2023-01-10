@@ -1,70 +1,47 @@
-/* Styles for skills and experience section of home page */
+/* Styles for the skills section */
 
-/* Desktop View */
-#skills_section {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+/* general styles */
+
+/* applies to large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #skills-section {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #skills-section-div1 h2 {
+        font-family: var(--font3);
+        color: var(--color5);
+        font-weight: 800;
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    #skills-dev .skill, #skills-fw .skill, #skills-ui .skill, #skills-qa .skill {
+        border-radius: 5px;
+    }
+
+
+    #skills-dev .skill {
+        background-color: var(--color3);
+    }
+
+    #skills-ui .skill {
+        background-color: var(--color4);
+    }
+
+    #skills-fw .skill {
+        background-color: var(--color5);
+    }
+
+    #skills-qa .skill {
+        background-color: var(--color6);
+    }
+
+
+    .progress {
+        width: 30%;
+    }
 }
-
-#skills_section_div1 {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    color: #507F85;
-}
-
-#skills_section_div2 {
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-#skills_section_div2 h3 {
-    color: #749FA5;
-    padding-bottom: 15px;
-}
-
-#skills_section_div2 ul, #exp_section_div2 ul {    
-    list-style-type: none;
-}
-
-#skills_section_div2 li  {    
-    padding-top: 20px;
-}
-
-.skill_name { 
-    padding-top: 15px;
-    padding-bottom: 0px;
-    font-size: 17px;
-    color: #749FA5;
-}
-
-#progress {
-    background-color: #D3D3D3;
-    width: 400px;
-}
-
-.progress-bar {
-    background-color: #507F85;
-}
-
-#skills_section_div2_col1 {
-    border-right: #749FA5 1px solid;
-    padding-right: 30px;
-}
-
-#skills_section_div2_col2 {
-    padding-left: 30px;
-}
-
-.exp_name {
-    color: #749FA5;
-    padding-top: 7px;
-    font-size: 17px;
-}
-
-
-
-/* Tablet View */
-
-/* Mobile View */
