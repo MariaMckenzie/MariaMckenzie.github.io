@@ -5,18 +5,18 @@ import styles from "./Nav.module.css";
 
 //[styles.container, "justify-content-md-center pb-5"].join(" ")
 const navComponent = () => {
-     return (
+    return (
         <>
             <Navbar>
                 <Container className="mx-3">
-                    <Navbar.Brand className="me-5">
+                    <Navbar.Brand className="mx-3" href="/">
                         <Image src={logo} alt="brand logo" className={styles.logo} />
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#">Home</Nav.Link>
-                        <Nav.Link href="#">Portfolio</Nav.Link>
-                        <Nav.Link href="#">Resume</Nav.Link>
-                        <Nav.Link href="#">Contact</Nav.Link>
+                        <Nav.Link href="/" className="me-4">Home</Nav.Link>
+                        <Nav.Link href="/portfolio" className="me-4">Portfolio</Nav.Link>
+                        {/* <Nav.Link href="#">Resume</Nav.Link> */}
+                        <Nav.Link href="/contact-me" className="me-4">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
