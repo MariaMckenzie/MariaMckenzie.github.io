@@ -7,13 +7,11 @@ import styles from "./Portfolio.module.css";
 const portfolioPage = () => {
     return (
         <>
-            <Container className="m-5 p-0">
+            <Container className="mx-5  my-3 p-0">
                 <h4 className={styles.heading}>Projects</h4>
-            </Container>
-            <Container>
                 <ProjectTabsComponent/>
             </Container>
-            <Container>
+            <Container className="m-5 p-0">
                 <ProjectListComponent />
             </Container>
         </>
