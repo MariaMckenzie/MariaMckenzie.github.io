@@ -1,3 +1,18 @@
 .logo {
     max-height: 40px;
 }
+
+.tabs {
+    border-bottom: #DDDDDD 1px solid;
+}
+
+ .pill {
+    padding: 3px 10px !important;
+    border-radius: 5px !important;
+}
+
+.pill:active, .pill:hover, .active {
+    background-color: var(--color3) !important;
+    padding: 3px 10px !important;
+    border-radius: 5px !important;
+}
