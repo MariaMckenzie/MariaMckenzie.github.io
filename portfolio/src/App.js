@@ -9,7 +9,8 @@ import NavComponent from "./components/nav/Nav.component";
 
 function App() {
     return (
-        <BrowserRouter basename="/mariamckenzie.github.io">
+        // <BrowserRouter>
+        <>
             <NavComponent/>
             <Routes>
                 {/* Routes */}
@@ -21,7 +22,8 @@ function App() {
                 {/* Error Page */}
                 <Route path="*" element= { <ErrorPage/> } />
             </Routes>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
+        </>
     );
 }
 
