@@ -9,8 +9,7 @@ import NavComponent from "./components/nav/Nav.component";
 
 function App() {
     return (
-        // <BrowserRouter>
-        <>
+        <BrowserRouter>
             <NavComponent/>
             <Routes>
                 {/* Routes */}
@@ -22,8 +21,7 @@ function App() {
                 {/* Error Page */}
                 <Route path="*" element= { <ErrorPage/> } />
             </Routes>
-        {/* </BrowserRouter> */}
-        </>
+        </BrowserRouter>
     );
 }
 
