@@ -9,7 +9,7 @@ import NavComponent from "./components/nav/Nav.component";
 
 function App() {
     return (
-        <HashRouter>
+        <>
             <NavComponent/>
             <Routes>
                 {/* Routes */}
@@ -21,7 +21,7 @@ function App() {
                 {/* Error Page */}
                 <Route path="*" element= { <ErrorPage/> } />
             </Routes>
-        </HashRouter>
+        </> 
     );
 }
 
