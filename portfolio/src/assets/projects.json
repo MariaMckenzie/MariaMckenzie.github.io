@@ -1,0 +1,26 @@
+{
+    "ui-ux": {
+        "project1": {
+            "name": "Title",
+            "summary": "Summary",
+            "description": "Desc",
+            "images": []
+        }
+    },
+    "frontend-development": {
+        "project1": {
+            "name": "Title",
+            "summary": "Summary",
+            "description": "Desc",
+            "images": []
+        }
+    },
+    "qa": {
+        "project1": {
+            "name": "Title",
+            "summary": "Summary",
+            "description": "Desc",
+            "images": []
+        }
+    }
+}
