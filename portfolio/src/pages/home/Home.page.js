@@ -6,7 +6,7 @@ import linkedinIcon from "../../assets/icons/linkedin.svg";
 import emailIcon from "../../assets/icons/email.svg";
 import githubIcon from "../../assets/icons/github.svg";
 import Tabs from "../../components/tabs/Tabs.component";
-import Skills from "../../components/tabs/Skills.component";
+// import Skills from "../../components/tabs/Skills.component";
 import styles from "./Home.module.css";
 
 const homePage = () => {
@@ -56,7 +56,7 @@ const homePage = () => {
                             <Tabs />
                         </Row>
                         <Row className={styles.tabInfo} >
-                            <Skills />
+                            {/* <Skills /> */}
                         </Row>
                     </Col>
                 </Row>
