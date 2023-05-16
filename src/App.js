@@ -10,12 +10,13 @@ import NavComponent from "./components/nav/Nav.component";
 function App() {
     return (
         <>
+
             <NavComponent/>
             <Routes>
                 {/* Routes */}
                 <Route path="/" element= { <HomePage/> } />
-                <Route path="/portfolio" element= { <PortfolioPage/> } />
-                <Route path="/contact-me" element= { <ContactPage/> } />
+                <Route path="https://mariamckenzie.github.io/portfolio" element= { <PortfolioPage/> } />
+                <Route path="https://mariamckenzie.github.io/contact-me" element= { <ContactPage/> } />
                 <Route path="/project/:type/:id" element= { <ProjectPage/> } />
 
                 {/* Error Page */}
