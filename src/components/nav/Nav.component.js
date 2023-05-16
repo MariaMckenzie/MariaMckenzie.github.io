@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import styles from "./Nav.module.css";
+import { Link } from "react-router-dom";
 
 //[styles.container, "justify-content-md-center pb-5"].join(" ")
 const navComponent = () => {
@@ -13,10 +14,10 @@ const navComponent = () => {
                         <Image src={logo} alt="brand logo" className={styles.logo} />
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="/" className="me-4">Home</Nav.Link>
-                        <Nav.Link href="/portfolio" className="me-4">Portfolio</Nav.Link>
+                        <Link to="/" className="me-4">Home</Link>
+                        <Link to="/portfolio" className="me-4">Portfolio</Link>
                         {/* <Nav.Link href="#">Resume</Nav.Link> */}
-                        <Nav.Link href="/contact-me" className="me-4">Contact</Nav.Link>
+                        <Link to="/contact-me" className="me-4">Contact</Link>
                     </Nav>
                 </Container>
             </Navbar>
