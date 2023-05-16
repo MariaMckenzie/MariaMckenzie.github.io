@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/home/Home.page";
 import PortfolioPage from "./pages/portfolio/Portfolio.page";
 import ProjectPage from "./pages/project/Project.page";
@@ -10,8 +10,7 @@ import NavComponent from "./components/nav/Nav.component";
 function App() {
     return (
         <>
-            <BrowserRouter>
-            <HashRouter basename="/">
+            <BrowserRouter basename="/">
             <NavComponent/>
             <Routes>
                 {/* Routes */}
@@ -23,7 +22,6 @@ function App() {
                 {/* Error Page */}
                 <Route path="*" element= { <ErrorPage/> } />
             </Routes>
-            </HashRouter>
             </BrowserRouter>
         </>
     );
