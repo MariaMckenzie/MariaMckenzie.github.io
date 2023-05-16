@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 {/* Routes */}
                 <Route path="/" element= { <HomePage/> } />
-                <Route path="/portfolio" element= { <PortfolioPage/> } />
+                <Route path="/portfolio" exact element= { <PortfolioPage/> } />
                 <Route path="/contact-me" element= { <ContactPage/> } />
                 <Route path="/project/:type/:id" element= { <ProjectPage/> } />
 
