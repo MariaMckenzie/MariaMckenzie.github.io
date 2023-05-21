@@ -1,88 +1,13 @@
-.backgroundContainer {
-    max-width: fit-content;
-}
-
-.backgroundImage {
-    object-fit: fill;
-    height: 150px;
-    width: 3000px;
-    z-index: 0;
-    position: relative;
-}
-
-.profileContainer {
-    border-radius: 5px;
+.container {
+    border-radius: 15px;
     background-color: white;
-    margin-top: -100px;
-    z-index: 1;
-    position: relative;
     box-shadow: #CCCCCC 0px 3px 6px;
+    height: 40em !important;
+    justify-content: center;
+    align-items: center;
 }
 
-.infoContainer {
-    padding: 0;
-}
-
-.infoContainerName {
-    font-family: var(--font2);
-    font-weight: bold;
-    /* letter-spacing: 1px; */
-    color: var(--color5);
-    margin: 0;
-}
-
-.infoContainerRole {
-    font-size: 9px;
-    font-weight: 500;
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
-.infoContainerLocation {
-    font-size: 9px;
-    margin-top: 8px;
-    margin-bottom: 30px;
-}
-
-.profileImage {
-    max-height: 70px;
-}
-
-.profileRow {
-    padding-top: 10px;
-    border-bottom: #DDDDDD 1px solid;
-}
-
-.aboutRow {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: #DDDDDD 1px solid;
-}
-
-.contactRow {
-    padding-top: 20px;
-    padding-bottom: 0;
-}
-
-.contactRow p {
-    padding-bottom: 5px;
-    margin: 0;
-}
-
-.icon {
-    max-height: 15px;
-    padding-right: 10px;
-}
-.emailIcon {
-    max-height: 7px;
-    margin-top: 3px;
-    padding-right: 10px;
-}
-
-.tabInfo {
-    padding: 0 30px;
-}
-
-.rand {
-    border: 2px red solid;
+.container2 {
+    height: 40em !important;
+    background-color: none;
 }
