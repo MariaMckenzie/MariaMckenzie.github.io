@@ -1,0 +1,16 @@
+{
+    "name": "Maria McKenzie",
+    "role": [
+        {
+            "name": "UI/UX Designer",
+            "info": "I specialize in creating visually stunning and intuitive user interfaces, ensuring seamless user experiences that drive engagement and satisfaction."
+        }, {
+            "name": "Frontend Developer",
+            "info": " I develop responsive and interactive websites or applications that deliver exceptional user experiences and meet modern design standards."
+        }, {
+            "name": "Automation Tester",
+            "info": " I have expertise in designing and implementing automated testing frameworks and scripts, enabling efficient and reliable software testing to ensure high-quality and bug-free applications."
+        }
+    ],
+    "about": "I combine creativity and technical expertise to deliver exceptional user experiences."
+}
