@@ -1,28 +1,31 @@
 import React from "react"; 
+import { NavLink } from "react-router-dom";
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
-import styles from "./Nav.module.css";
-import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
 
-//[styles.container, "justify-content-md-center pb-5"].join(" ")
-const navComponent = () => {
+function NavComponent () {
     return (
-        <>
-            <Navbar>
-                <Container className="mx-3">
-                    <Navbar.Brand className="mx-3" href="/">
-                        <Image src={logo} alt="brand logo" className={styles.logo} />
-                    </Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Link to="/" className="me-4">Home</Link>
-                        <Link to="/portfolio" className="me-4">Portfolio</Link>
-                        {/* <Nav.Link href="#">Resume</Nav.Link> */}
-                        <Link to="/contact-me" className="me-4">Contact</Link>
-                    </Nav>
-                </Container>
-            </Navbar>
-        </>
+        <Navbar expand="lg" className={ [styles.nav, "container-fluid mx-auto" ].join(" ") }>
+            <Container className="mx-3 navbar-nav">
+                <Navbar.Brand className="mx-3" href="/">
+                    <Image src={logo} alt="brand logo" className={styles.logo} />
+                </Navbar.Brand>
+
+                {/* toggle navbar between expanded form and hamburger menu */}
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className={ styles.collapseNav }> {/* add styles for hamburger menu */}
+                
+                <Nav className="ms-auto">
+                    <NavLink to="/" className={ styles.link }>Home</NavLink>
+                    <NavLink to="/portfolio" className={ styles.link }>Portfolio</NavLink>
+                    <NavLink to="/resume" className={ styles.link }>Resume</NavLink>
+                    <NavLink to="/contact-me" className={ styles.link }>Contact</NavLink>
+                </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
-export default navComponent;
+export default NavComponent;
