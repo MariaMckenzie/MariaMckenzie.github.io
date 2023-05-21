@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Poiret+One&display=swap');
+
 :root {
   /* colours scheme */
   --color1: #D6D2B5;
@@ -10,6 +13,12 @@
   /* fonts */
   --font1: 'Montserrat';
   --font2: 'Poiret One';
+  --font3: 'Indie Flower';
+}
+
+#root {
+  /* background color of webpage */
+  background-image: linear-gradient(to right, #A1C2C7 , #f2e7d5);
 }
 
 p {
