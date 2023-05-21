@@ -1,0 +1,34 @@
+{
+    "project1": {
+        "title": "a",
+        "description": "b",
+        "features": [],
+        "tech-used": [],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    },
+    "project2": {
+        "title": "a",
+        "description": "b",
+        "features": [],
+        "tech-used": [],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    },
+    "project3": {
+        "title": "a",
+        "description": "b",
+        "features": [],
+        "tech-used": [],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    },
+    "project4": {
+        "title": "a",
+        "description": "b",
+        "features": [],
+        "tech-used": [],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    }
+}
