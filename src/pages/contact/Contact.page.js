@@ -3,11 +3,18 @@ import { Col, Container, Form, FloatingLabel, Image, Row, Button} from "react-bo
 import image from "../../assets/images/send_message.svg";
 import emailIcon from "../../assets/icons/email_2.svg";
 import locationIcon from "../../assets/icons/location.svg";
+import NavComponent from "../../components/nav/nav.component";
 import styles from "./Contact.module.css";
 
 const contactPage = () => {
     return (
         <>
+        <Container className="m-0 p-4">
+         {/* navigation bar */}
+         <Row className="py-2">
+                <NavComponent />
+            </Row>
+        </Container>
             <Container className={ [styles.container, ""].join(" ") }>
                 <Row className="gx-5 m-0 p-0">
                     <Col className={styles.col1}>
@@ -51,6 +58,8 @@ const contactPage = () => {
                     </Col>
                 </Row>      
             </Container>
+
+            <Row className="pb-3"></Row>
         </>
     )
 }

@@ -1,8 +1,9 @@
 .container {
+    background-color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: #CCCCCC 0px 3px 6px;
-    margin: 2% auto;
+    margin: 5px auto;
     padding: 40px;
     max-width: 60%;
     justify-content: center;
@@ -10,8 +11,7 @@
 }
 
 .heading {
-    font-family: var(--font2);
-    font-weight: bold;
+    font-family: var(--font3);
     color: var(--color5);
     padding-bottom: 2px;
 }
