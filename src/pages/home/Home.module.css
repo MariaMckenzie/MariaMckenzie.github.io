@@ -1,13 +1,7 @@
 .container {
     border-radius: 15px;
     background-color: white;
-    box-shadow: #CCCCCC 0px 3px 6px;
-    height: 40em !important;
+    box-shadow: #314d51 0px 1px 5px;
     justify-content: center;
     align-items: center;
-}
-
-.container2 {
-    height: 40em !important;
-    background-color: none;
 }
