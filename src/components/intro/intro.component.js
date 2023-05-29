@@ -1,8 +1,10 @@
 import React from "react";
 import data from "../../assets/data/intro.data.json";
-import { Button, Col, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import img from "../../assets/images/pic1.png";
-import styles from "./styles.module.css";
+import githubIcon from "../../assets/icons/github.svg";
+import linkedinIcon from "../../assets/icons/linkedin.svg";
+import styles from "./intro.module.css";
 
 function IntroComponent() {
     return (
@@ -10,6 +12,12 @@ function IntroComponent() {
             <Col lg={7} className="p-0">
                 <h4 className={ styles.heading }>Hello I'm { data.name.split(" ")[0] }</h4>
                 <h3 className={ styles.subheading }>{ data.about }</h3>
+
+                <Container className="py-3 d-flex px-0">
+                    <Image src={githubIcon} alt="Github Icon" fluid className={ styles.icons } />
+                    <Image src={linkedinIcon} alt="LinkedIn Icon" fluid className={ styles.icons } />
+                </Container>
+
                 <Button className={ styles.btn1 }>View Projects</Button>
                 <Button className={ styles.btn2 }>Contact Me</Button>
             </Col>
