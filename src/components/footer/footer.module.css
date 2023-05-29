@@ -1,0 +1,28 @@
+/* COLUMN 1 */
+.logo {
+    max-height: 150px;
+}
+
+/* COLUMN 2 */
+.text {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color5);
+}
+
+.icons {
+    max-height: 20px;
+    margin: 0 10px;
+}
+
+/* COLUMN 3 */
+.link {
+    color: var(--black) !important;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.link:hover {
+    color: var(--color5) !important;
+    text-decoration: none !important;
+}
