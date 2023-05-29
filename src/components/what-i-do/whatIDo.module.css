@@ -1,0 +1,56 @@
+.heading {
+    color:  white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.card {
+    /* opacity: 0.5; */
+    background: none;
+    border: none;
+    border-radius: 0;
+    width: 240px;
+    height: 100%;
+}
+
+.cardDecor {
+    border-top: 2px solid var(--color3);
+    border-top-width: 10px;
+    padding: 10px;
+    max-width: 50px;
+    margin: 0;
+}
+
+.title {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text {
+    font-size: 12px;
+    color: white;
+}
+
+.btn {
+    border: 1.4px solid white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    max-width: 100px;
+    background-color: none;
+    background: none;   
+    margin: 0;
+    margin-top: auto;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn:hover {
+    /* color: #314D51; */
+    border: 1.4px solid white;
+    background-color: white;
+    color: var(--color5);
+}
+
