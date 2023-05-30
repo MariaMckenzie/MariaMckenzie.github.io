@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.a901bea2.css",
-    "main.js": "/static/js/main.8912d680.js",
+    "main.css": "/static/css/main.b04a0074.css",
+    "main.js": "/static/js/main.f49aa073.js",
     "static/media/pic1.png": "/static/media/pic1.b44d738096e73c5b3f49.png",
+    "static/media/temp.png": "/static/media/temp.378136019b8a696c5264.png",
     "static/media/full_logo.png": "/static/media/full_logo.1de8e581f8f2ef53b9fa.png",
     "static/media/logo.png": "/static/media/logo.0a1d3c68ee2fefeb0d95.png",
+    "static/media/under_construction.svg": "/static/media/under_construction.cc99dfd6fec4ccabc09751216b401bc4.svg",
     "static/media/404.svg": "/static/media/404.e135ebb83282ab47e7375f985a9013a0.svg",
     "static/media/send_message.svg": "/static/media/send_message.3a10c29f253a621663e0b9df5d40a2d3.svg",
     "static/media/github.svg": "/static/media/github.d442350d72045bc32b29e2960a2dcbae.svg",
@@ -13,11 +15,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.7b8eb07a427fededeb55ad624f209da3.svg",
     "static/media/email.svg": "/static/media/email.292c244444ae2d177bf58ac255b7aac8.svg",
     "static/media/email_2.svg": "/static/media/email_2.7c12a894d716901e22fc39fc41b80192.svg",
-    "main.a901bea2.css.map": "/static/css/main.a901bea2.css.map",
-    "main.8912d680.js.map": "/static/js/main.8912d680.js.map"
+    "main.b04a0074.css.map": "/static/css/main.b04a0074.css.map",
+    "main.f49aa073.js.map": "/static/js/main.f49aa073.js.map"
   },
   "entrypoints": [
-    "static/css/main.a901bea2.css",
-    "static/js/main.8912d680.js"
+    "static/css/main.b04a0074.css",
+    "static/js/main.f49aa073.js"
   ]
 }
