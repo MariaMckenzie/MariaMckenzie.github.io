@@ -17,7 +17,7 @@ function FooterComponent() {
             <Col className="text-center align-self-center">
                 <p className={ styles.text }> Location</p>
                 <Container className="pb-4 d-block justify-content-center">
-                    <p>Kingston, Jamaica</p>
+                    <p className={ styles.text2 }>Kingston, Jamaica</p>
                 </Container>
                 <p className={ styles.text }> Contact Me</p>
                 <Container className="d-flex justify-content-center">
