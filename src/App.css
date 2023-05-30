@@ -18,7 +18,7 @@
 
 #root {
   /* background color of webpage */
-  background-image: linear-gradient(to right, #A1C2C7 , #f2e7d5);
+  background-image: linear-gradient(to right, var(--color3), var(--color5));
 }
 
 p {
