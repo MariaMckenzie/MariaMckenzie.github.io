@@ -1,6 +1,8 @@
 /* COLUMN 1 */
 .heading {
-    font-family: var(--font3);
+    text-transform: none;
+    font-weight: lighter;
+    letter-spacing: normal;
 }
 
 .subheading {
