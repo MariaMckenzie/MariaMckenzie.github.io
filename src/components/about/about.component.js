@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../assets/data/about.data.json";
 import { Container } from "react-bootstrap";
-import styles from "./styles.module.css";
+import styles from "./about.module.css";
 
 function AboutComponent() {
     return (
