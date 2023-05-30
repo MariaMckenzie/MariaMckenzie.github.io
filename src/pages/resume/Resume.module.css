@@ -1,0 +1,25 @@
+.img {
+    max-height: 250px;
+    border-radius: 7px;
+}
+
+.heading {
+    color:  white;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #314d51 0px 1px 5px;
+    justify-content: center;
+    align-items: center;
+}
