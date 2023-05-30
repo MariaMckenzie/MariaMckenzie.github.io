@@ -18,8 +18,9 @@ function App() {
 					<Route path="/home" element={<HomePage />} />
 					<Route path="/portfolio" exact element={<PortfolioPage />} />
                     <Route path="/resume" exact element={<ResumePage />} />
-					<Route path="/contact-me" element={<ContactPage />} />
-					<Route path="/project/:type/:id" element={<ProjectPage />}  />
+					<Route path="/contact-me" exact element={<ContactPage />} />
+					<Route path="/projects/:type/:id" exact element={<ProjectPage />} />
+                    
 					{/* Error Page */}
 					<Route path="/*" element={<ErrorPage />} />
 				</Routes>
