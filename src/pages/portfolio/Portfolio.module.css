@@ -1,7 +1,30 @@
-.heading {
-    font-family: var(--font2);
-    font-weight: bold;
-    color: var(--color5);
-    /* letter-spacing: 1px; */
-    padding-bottom: 10px;
+.container {
+    justify-content: center;
+    align-items: center;
 }
+
+.card {
+    background: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: #314d51 0px 1px 5px;
+    font-size: 12px;
+    padding: 20px;
+    height: 100%;
+}
+
+.heading {
+    color:  white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #314d51 0px 1px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
