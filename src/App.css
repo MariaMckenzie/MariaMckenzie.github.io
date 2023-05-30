@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Varela+Round&display=swap');
 
 :root {
   /* colours scheme */
@@ -12,7 +12,7 @@
 
   /* fonts */
   --font1: 'Montserrat';
-  --font2: 'Poiret One';
+  --font2: 'Varela Round';
   --font3: 'Indie Flower';
 }
 
@@ -21,6 +21,11 @@
   background-image: linear-gradient(to right, var(--color3), var(--color5));
 }
 
-p {
-    font-size: 12px;
+h3, h4, h5 {
+    font-family: var(--font2);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+
