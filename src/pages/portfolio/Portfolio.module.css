@@ -1,32 +1,7 @@
-.card {
-    background: white;
-    border: none;
-    border-radius: 15px;
-    box-shadow: #314d51 0px 1px 5px;
-    font-size: 12px;
-    padding: 30px;
-    height: 100%;
-}
-
-.img {
-    max-height: 120px;
-    border-radius: 7px;
-}
-
 .heading {
     color:  white;
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: bold;
-}
-
-.subheading {
-    color:  white;
-    padding-top: 50px;
-}
-
-.title {
-    color: #999999;
-    font-weight: 500;
 }
 
 .container {
@@ -36,20 +11,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.btn {
-    border-radius: 7px;
-    border: 1.4px solid var(--color3);
-    background-color: white;
-    color: var(--color3);
-    padding: 5px 10px;
-    font-size: 10px;
-    font-weight: 500;
-    max-width: 100px;
-}
-
-.btn:hover {
-    border: 1.4px solid var(--color4);
-    background-color: var(--color4) !important;
-}
-
