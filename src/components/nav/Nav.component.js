@@ -4,7 +4,7 @@ import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import styles from "./nav.module.css";
 
-function NavComponent ( activeLink ) {
+function NavComponent () {
     return (
         <Navbar expand="lg" className={ [styles.nav, "container-fluid mx-auto" ].join(" ") }>
             <Container className="mx-3 navbar-nav">

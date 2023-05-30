@@ -1,5 +1,5 @@
-{
-    "project1": {
+[
+    {
         "title": "a",
         "summary": "b",
         "problem-statement": "c",
@@ -16,7 +16,7 @@
         "major-screens": ["image links"],
         "other-screens": ["image links"]
     },
-    "project2": {
+    {
         "title": "a",
         "summary": "b",
         "problem-statement": "c",
@@ -33,7 +33,7 @@
         "major-screens": ["image links"],
         "other-screens": ["image links"]
     },
-    "project3": {
+    {
         "title": "a",
         "summary": "b",
         "problem-statement": "c",
@@ -50,7 +50,7 @@
         "major-screens": ["image links"],
         "other-screens": ["image links"]
     },
-    "project4": {
+    {
         "title": "a",
         "summary": "b",
         "problem-statement": "c",
@@ -67,4 +67,4 @@
         "major-screens": ["image links"],
         "other-screens": ["image links"]
     }
-}
+]

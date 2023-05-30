@@ -1,6 +1,6 @@
-{        
-    "project1": {
-        "overview": "a",
+[      
+    {
+        "overview": "qa",
         "description": "b",
         "scope": "c",
         "technologies": [],
@@ -9,8 +9,8 @@
         "results": [],
         "future-enhancements": []
     },
-    "project2": {
-        "overview": "a",
+    {
+        "overview": "qa",
         "description": "b",
         "scope": "c",
         "technologies": [],
@@ -19,8 +19,8 @@
         "results": [],
         "future-enhancements": []
     },
-    "project3": {
-        "overview": "a",
+    {
+        "overview": "aq",
         "description": "b",
         "scope": "c",
         "technologies": [],
@@ -29,8 +29,8 @@
         "results": [],
         "future-enhancements": []
     },
-    "project4": {
-        "overview": "a",
+    {
+        "overview": "qa",
         "description": "b",
         "scope": "c",
         "technologies": [],
@@ -39,4 +39,4 @@
         "results": [],
         "future-enhancements": []
     }
-}
+]
