@@ -1,0 +1,13 @@
+.heading {
+    color:  white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #314d51 0px 1px 5px;
+    justify-content: center;
+    align-items: center;
+}
