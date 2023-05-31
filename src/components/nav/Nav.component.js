@@ -6,12 +6,12 @@ import styles from "./nav.module.css";
 
 function NavComponent () {
     return (
-        <Navbar expand="lg" className={ [styles.nav, "container-fluid px-3" ].join(" ") }>
+        <Navbar expand="lg" className={ [styles.nav, "container-fluid d-flex px-3" ].join(" ") }>
             <Container>
                 <Navbar.Brand href="/">
                     <Image src={logo} alt="brand logo" className={ styles.logo } />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"  className={ styles.collapseNavButton } />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className={ styles.collapseNav } >
                     <Nav className="ms-auto">
                         {/* need to check to see if the link is active */}
