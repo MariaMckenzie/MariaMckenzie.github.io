@@ -19,6 +19,7 @@ function PortfolioPage () {
 
             {/* projects section */}
             <h3 className={ styles.heading }>Portfolio</h3>
+            
             <UIProjectListComponent />
             <DevProjectListComponent />
             <QAProjectListComponent />

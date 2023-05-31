@@ -14,7 +14,7 @@ function HomePage () {
 				<Row className="py-2">
 					<NavComponent />
 				</Row>
-
+                
                 {/* introduction section */}
 				<Row className="pb-4">
 					<IntroComponent />

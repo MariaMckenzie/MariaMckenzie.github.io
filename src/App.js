@@ -10,7 +10,7 @@ import ErrorPage from "./pages/error/Error.page";
 
 function App() {
 	return (
-		<Container classname="app">
+		<Container className="app">
 			<BrowserRouter basename="/">
 				<Routes>
 					{/* Routes */}
