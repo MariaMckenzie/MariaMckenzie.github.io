@@ -5,9 +5,10 @@ import githubIcon from "../../assets/icons/github.svg";
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import emailIcon from "../../assets/icons/email.svg";
 import fulllogo from "../../assets/images/full_logo.png";
+import data from "../../assets/data/about.data.json";
 import styles from "./footer.module.css";
 
-function FooterComponent() {
+function FooterComponent () {
     return (
         <Container>
             {/* show for larger screens */}
@@ -21,11 +22,18 @@ function FooterComponent() {
                         <Container className="pb-4 d-block justify-content-center">
                             <p className={ styles.text2 }>Kingston, Jamaica</p>
                         </Container>
+
                         <p className={ styles.text }> Contact Me</p>
                         <Container className="d-flex justify-content-center">
-                            <Image src={githubIcon} alt="Github Icon" fluid className={ styles.icons } />
-                            <Image src={linkedinIcon} alt="LinkedIn Icon" fluid className={ styles.icons } />
-                            <Image src={emailIcon} alt="Email Icon" fluid className={ styles.icons } />
+                            <a href={ data.github } target="_blank" rel="noopener noreferrer">
+                                <Image src={ githubIcon } alt="Github Icon" fluid className={ styles.icons } />
+                            </a>
+                            <a href={ data.linkedin } target="_blank" rel="noopener noreferrer">
+                                <Image src={ linkedinIcon } alt="LinkedIn Icon" fluid className={ styles.icons } />
+                            </a>
+                            <a href={ data.email } target="_blank" rel="noopener noreferrer">
+                                <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
+                            </a> 
                         </Container>
                     </Col>
                     <Col className="align-self-center">
@@ -40,7 +48,6 @@ function FooterComponent() {
                 </Row>
             </Container>
             
-
             {/* show for smaller screens */}
             <Row className="m-0 p-1 d-lg-none d-xxl-block text-center justify-content-center">
                     <Container>
@@ -58,9 +65,15 @@ function FooterComponent() {
 
                     <p className={ styles.text }> Contact Me</p>
                     <Container className="d-flex justify-content-center">
-                        <Image src={githubIcon} alt="Github Icon" fluid className={ styles.icons } />
-                        <Image src={linkedinIcon} alt="LinkedIn Icon" fluid className={ styles.icons } />
-                        <Image src={emailIcon} alt="Email Icon" fluid className={ styles.icons } />
+                        <a href={ data.github } target="_blank" rel="noopener noreferrer">
+                            <Image src={ githubIcon } alt="Github Icon" fluid className={ styles.icons } />
+                        </a>
+                        <a href={ data.linkedin } target="_blank" rel="noopener noreferrer">
+                            <Image src={ linkedinIcon } alt="LinkedIn Icon" fluid className={ styles.icons } />
+                        </a>
+                        <a href={ data.email } target="_blank" rel="noopener noreferrer">
+                            <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
+                        </a>                        
                     </Container>
 
                     <Container className={ styles.footerDecor }></Container>
