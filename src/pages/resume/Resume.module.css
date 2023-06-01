@@ -23,3 +23,10 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Extra small up to medium devices (phones and tablets, 300px and up) */
+@media (max-width: 991px) {
+    .heading {
+        text-align: center;
+    }
+}
