@@ -2,7 +2,6 @@ import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import data from "../../assets/data/dev-projects.data.json";
-import img from "../../assets/images/temp.png";
 import styles from "./projectList.module.css";
 
 function DevProjectListComponent() {
@@ -14,12 +13,13 @@ function DevProjectListComponent() {
             <Row className="row-cols-auto text-start">
                 {/* add cards from json file */
                     Array.from({ length: 3 }).map((_, id) => (
-                        <Col className="mx-auto">
+                        <Col key={`dev-${id}`} className="mx-auto">
                             <Card className={ styles.card }>
                                 <Container className={ styles.cardDecor }></Container>
-                                <Card.Img src={img} alt="LinkedIn Icon" fluid className={ styles.img }/>
-                                <Card.Title className={ styles.title }> { fakeTitle } </Card.Title>
-                                <Card.Text className={ styles.text }> { fakeText } </Card.Text>
+                                <Card.Img src={ require(`../../assets/images/projects/dev${data[id].cover}`) } alt="Website Cover Image" fluid className={ styles.img }/>
+                                <Card.Title className={ styles.title }> { data[id].title } </Card.Title>
+                                <Card.Text className={ styles.text }> { data[id].description } </Card.Text>
+                                {console.log(data[id].description)}
                                 <Link role="button" to={`/development/uiux/${id+1}`} className={ styles.btn }>View Details</Link>
                             </Card>
                         </Col>

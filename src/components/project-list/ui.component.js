@@ -14,7 +14,7 @@ function UIProjectListComponent() {
             <Row className="row-cols-auto text-start">
                 {/* add cards from json file */
                     Array.from({ length: 3 }).map((_, id) => (
-                        <Col className="mx-auto">
+                        <Col key={`ui-${id}`} className="mx-auto">
                             <Card className={ styles.card }>
                                 <Container className={ styles.cardDecor }></Container>
                                 <Card.Img src={img} alt="LinkedIn Icon" fluid className={ styles.img }/>
