@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import data from "../../assets/data/qa-projects.data.json";
 import img from "../../assets/images/temp.png";
 import styles from "./projectList.module.css";
@@ -19,7 +20,9 @@ function QAProjectListComponent() {
                                 <Card.Img src={img} alt="LinkedIn Icon" fluid className={ styles.img }/>
                                 <Card.Title className={ styles.title }> { fakeTitle } </Card.Title>
                                 <Card.Text className={ styles.text }> { fakeText } </Card.Text>
-                                <Button href={`/projects/automation/${id+1}`} className={ styles.btn }>View Details</Button>
+                                <Link to={`/projects/automation/${id+1}`}>
+                                    <Button className={ styles.btn }>View Details</Button>
+                                </Link>
                             </Card>
                         </Col>
                     ))

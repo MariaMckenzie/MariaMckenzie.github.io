@@ -1,6 +1,7 @@
 import React from "react";
-import data from "../../assets/data/intro.data.json";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import data from "../../assets/data/intro.data.json";
 import styles from "./whatIDo.module.css";
 
 function WhatIDoComponent() {
@@ -15,7 +16,9 @@ function WhatIDoComponent() {
                                 <Container className={ styles.cardDecor }></Container>
                                 <Card.Title className={ styles.title }> { data.role[id].name } </Card.Title>
                                 <Card.Text className={ styles.text }> { data.role[id].info } </Card.Text>
-                                <Button className={ styles.btn }>View Projects</Button>
+                                <Link to="/portfolio" className={ styles.link }>
+                                    <Button className={ styles.btn }>View Projects</Button>
+                                </Link>
                             </Card>
                         </Col>
                     ))
