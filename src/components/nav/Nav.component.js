@@ -1,6 +1,6 @@
 import React from "react"; 
-import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import styles from "./nav.module.css";
 

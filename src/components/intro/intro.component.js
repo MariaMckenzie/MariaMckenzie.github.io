@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import intro_data from "../../assets/data/intro.data.json";
 import data from "../../assets/data/about.data.json";
 import img from "../../assets/images/pic1.png";
@@ -37,12 +36,8 @@ function IntroComponent() {
 
                 {/* buttons */}
                 <Container className="pt-1 d-block px-0 justify-content-center d-lg-none d-xxl-block pb-4">
-                    <Link to="/portfolio">
-                        <Button className={ styles.btn1 }>View Portfolio</Button>
-                    </Link>
-                    <Link to="/portfolio">
-                        <Button href="/resume" className={ styles.btn2 }>View Resume</Button>
-                    </Link>
+                    <Button href="/portfolio" className={ styles.btn1 }>View Portfolio</Button>
+                    <Button href="/resume" className={ styles.btn2 }>View Resume</Button>
                 </Container>
 
                 {/* show for larger screens */}
@@ -60,12 +55,8 @@ function IntroComponent() {
 
                 {/* buttons */}
                 <Container className="py-3 d-flex px-0 d-none d-lg-block d-xxl-none">
-                    <Link to="/portfolio">
-                        <Button className={ styles.btn1 }>View Portfolio</Button>
-                    </Link>
-                    <Link to="/portfolio">
-                        <Button href="/resume" className={ styles.btn2 }>View Resume</Button>
-                    </Link>
+                    <Button href="/portfolio" className={ styles.btn1 }>View Portfolio</Button>
+                    <Button href="/resume" className={ styles.btn2 }>View Resume</Button>
                 </Container>
 
             </Col>
