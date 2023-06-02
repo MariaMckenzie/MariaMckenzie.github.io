@@ -20,7 +20,7 @@
         text-align: end;
     }
     
-    .link:hover, .link a:active {
+    .link:hover, .link.active {
         color: var(--color4) !important;
         border-bottom: 1px solid var(--color4) !important;
         text-decoration: none !important;
@@ -42,7 +42,7 @@
         margin: 0 30px;
     }
     
-    .link:hover, .link a:active {
+    .link:hover, .link.active {
         color: var(--color4) !important;
         border-bottom: 1px solid var(--color4) !important;
         text-decoration: none !important;
