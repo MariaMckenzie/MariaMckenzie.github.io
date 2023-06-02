@@ -15,11 +15,11 @@ function IntroComponent() {
 
             {/* show for smaller screens */}
             <Col className="d-lg-none d-xxl-block pb-4">
-                <Image src={ img } alt="profile image" fluid className={ styles.img } />
+                <Image src={img} alt="profile image" fluid className={styles.img} />
             </Col>
 
             <Col lg={7} className="p-0">
-                <h4 className={ styles.heading }>Hello I'm { intro_data.name.split(" ")[0] }</h4>
+                <h4 className={ styles.heading }>Hello I'm { data.name.split(" ")[0] }</h4>
                 <h2 className={ styles.subheading }>{ intro_data.about }</h2>
 
                 {/* show for smaller screens */}
@@ -36,7 +36,7 @@ function IntroComponent() {
                 </Container>
 
                 {/* buttons */}
-                <Container className="pt-1 d-block px-0 justify-content-center d-lg-none d-xxl-block pb-4">
+                <Container className="pt-1 d-flex flex-column px-0 justify-content-center d-lg-none d-xxl-block pb-4">
                     <Link to="/portfolio" className={ styles.btn1 }>View Portfolio</Link>
                     <Link to="/resume" className={ styles.btn2 }>View Resume</Link>
                 </Container>
@@ -51,7 +51,7 @@ function IntroComponent() {
                     </a>
                     <a href={ data.email } target="_blank" rel="noopener noreferrer">
                         <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
-                    </a>      
+                    </a>
                 </Container>
 
                 {/* buttons */}
@@ -59,14 +59,14 @@ function IntroComponent() {
                     <Link to="/portfolio" className={ styles.btn1 }>View Portfolio</Link>
                     <Link to="/resume" className={ styles.btn2 }>View Resume</Link>
                 </Container>
-
             </Col>
 
             {/* show for larger screens */}
             <Col className="text-center p-0 d-none d-lg-block d-xxl-none">
-                <Image src={ img } alt="profile image" fluid className={ styles.img } />
+                <Image src={img} alt="profile image" fluid className={styles.img} />
             </Col>
         </Row>
+
     )
 }
 
