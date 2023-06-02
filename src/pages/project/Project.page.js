@@ -4,6 +4,8 @@ import { Container, Row } from "react-bootstrap";
 import NavComponent from "../../components/nav/nav.component";
 import FooterComponent from "../../components/footer/footer.component";
 import DevProjectDetailsComponent from "../../components/project-details/dev.component";
+import QAProjectDetailsComponent from "../../components/project-details/qa.component";
+import UIProjectDetailsComponent from "../../components/project-details/ui.component";
 import styles from "./Project.module.css";
 
 function ProjectPage () {
@@ -18,8 +20,9 @@ function ProjectPage () {
             </Container>
 
             {/* projects section */}
-            { (type === "development") ? <DevProjectDetailsComponent  /> : console.log("no") }
-            <h3 className={ styles.heading }>{console.log(type)}</h3>
+            { (type === "development") ? <DevProjectDetailsComponent  /> : false}
+            { (type === "uiux") ? <UIProjectDetailsComponent  /> : false}
+            { (type === "qa") ? <QAProjectDetailsComponent  /> : false}
 
             {/* footer */}
             <Container className={ styles.container }>

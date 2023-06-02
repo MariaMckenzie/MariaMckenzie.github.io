@@ -1,6 +1,8 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import  arrowLeft from "../../assets/icons/arrow_left.svg";
+import  arrowRight from "../../assets/icons/arrow_right.svg";
 import data from "../../assets/data/dev-projects.data.json";
 import { useParams } from 'react-router-dom';
 import styles from "./projectDetails.module.css";
@@ -14,10 +16,13 @@ function DevProjectDetailsComponent ( ) {
             <Container>
                 <Row>
                     <Col className="text-start py-5">
-                        { id === "1" ? true : <Link role="button" to={`/projects/development/${Number(id)-1}`} className={ styles.btn }>View Previous Project</Link> }
+                        { id === "1" ? true : <Link role="button" to={`/projects/development/${Number(id)-1}`} className={ styles.btn }><Image src={ arrowLeft } alt="Left Arrow" fluid className={ styles.icons } /> View Previous Project
+                        </Link> }
                     </Col>
                     <Col className="text-end py-5">
-                        { id === "3" ? true : <Link role="button" to={`/projects/development/${Number(id)+1}`} className={ styles.btn }>View Next Project</Link> }
+                        { id === "3" ? true : <Link role="button" to={`/projects/development/${Number(id)+1}`} className={ styles.btn }>View Next Project
+                        <Image src={ arrowRight } alt="Right Arrow" fluid className={ styles.icons } />
+                        </Link> }
                     </Col>
                 </Row>        
             </Container>

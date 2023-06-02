@@ -1,7 +1,7 @@
 [
     {
         "title": "Anansi",
-        "description": "b",
+        "description": "A cryptocurrency website that offers a range of features to users interested in trading and investing in cryptocurrencies. The website serves as a platform where users can make trades, access crypto options, and even copy trades from experienced traders.",
         "cover": "anansi/cover.png",
         "problem-statement": "c",
         "goals": [],
@@ -19,7 +19,7 @@
     },
     {
         "title": "FlashCard Plus",
-        "description": "b",
+        "description": "A website designed to assist individuals in their studying efforts through the use of flashcards. The site provides a comprehensive platform for users to create, manage, and study flashcard decks for exams and quizzes.",
         "cover": "flashcardPlus/cover.png",
         "problem-statement": "c",
         "goals": [],

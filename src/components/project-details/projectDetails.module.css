@@ -1,6 +1,4 @@
 .btn {
-    border: 1.4px solid white;
-    border-radius: 7px;
     padding: 5px 10px;
     max-width: 100px;
     background-color: none !important;
@@ -15,8 +13,10 @@
 }
 
 .btn:hover {
-    /* color: #314D51; */
-    border: 1.4px solid white !important;
-    background-color: white !important;
-    color: var(--color5);
+    color: white;
+}
+
+.icons {
+    max-height: 20px;
+    margin: 0 10px;
 }

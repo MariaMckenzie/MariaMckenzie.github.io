@@ -19,7 +19,7 @@
     },
     {
         "title": "FlashCard Plus",
-        "description": "b",
+        "description": "A website designed to assist individuals in their studying efforts through the use of flashcards. The site provides a comprehensive platform for users to create, manage, and study flashcard decks for exams and quizzes.",
         "cover": "flashcardPlus/cover.png",
         "features": [],
         "tech-used": ["HTML", "CSS", "JavaScript", "React"],
