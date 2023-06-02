@@ -32,12 +32,14 @@
         font-size: 12px;
         padding: 5px 40px;
         margin: 10px 10px;
-        text-decoration: none;
+        text-decoration: none !important;
+        color: white;
     }
 
     .btn1:hover {
         border: 1.4px solid var(--color4) !important;
         background-color: var(--color4) !important;
+        color: white;
     }
 
     .btn2 {
@@ -48,7 +50,7 @@
         font-size: 12px;
         padding: 5px 40px;
         margin: 10px 10px;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     .btn2:hover {
@@ -89,17 +91,20 @@
     }
 
     .btn1 {
+        color: white;
         border: 1.4px solid var(--color3) !important;
         background-color: var(--color3) !important;
         border-radius: 7px;
         margin-right: 30px;
         font-size: 12px;
         padding: 5px 40px;
+        text-decoration: none !important;
     }
 
     .btn1:hover {
         border: 1.4px solid var(--color4) !important;
         background-color: var(--color4) !important;
+        color: white;
     }
 
     .btn2 {
@@ -110,6 +115,7 @@
         margin-right: 30px;
         font-size: 12px;
         padding: 5px 40px;
+        text-decoration: none !important;
     }
 
     .btn2:hover {
