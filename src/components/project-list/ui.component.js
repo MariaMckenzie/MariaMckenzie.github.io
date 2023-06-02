@@ -17,9 +17,9 @@ function UIProjectListComponent() {
                         <Col key={`ui-${id}`} className="mx-auto">
                             <Card className={ styles.card }>
                                 <Container className={ styles.cardDecor }></Container>
-                                <Card.Img src={img} alt="LinkedIn Icon" fluid className={ styles.img }/>
-                                <Card.Title className={ styles.title }> { fakeTitle } </Card.Title>
-                                <Card.Text className={ styles.text }> { fakeText } </Card.Text>
+                                <Card.Img src={ require(`../../assets/images/projects/ui/${data[id].cover}`) }alt="UIUX Design Cover Image" fluid className={ styles.img }/>
+                                <Card.Title className={ styles.title }> { data[id].title } </Card.Title>
+                                <Card.Text className={ styles.text }> { data[id].description } </Card.Text>
                                 <Link role="button" to={`/projects/uiux/${id+1}`} className={ styles.btn }>View Details</Link>
                             </Card>
                         </Col>
