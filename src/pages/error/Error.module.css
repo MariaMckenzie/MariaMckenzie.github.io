@@ -4,9 +4,9 @@
 
 .container {
     border: none;
-    border-radius: 5px;
-    box-shadow: #CCCCCC 0px 3px 6px;
-    margin: 3% auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #314d51 0px 1px 5px;
     padding: 40px;
     max-width: 50%;
     justify-content: center;
