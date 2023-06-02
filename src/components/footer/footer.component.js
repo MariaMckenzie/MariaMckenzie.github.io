@@ -10,9 +10,9 @@ import styles from "./footer.module.css";
 
 function FooterComponent () {
     return (
-        <Container>
+            <Container>
             {/* show for larger screens */}
-            <Container className="m-0 p-5 d-none d-lg-block d-xxl-none">
+            <Container className="m-0 p-5 d-lg-none d-xxl-block">
                 <Row>
                     <Col className="align-self-center">
                         <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
@@ -22,7 +22,6 @@ function FooterComponent () {
                         <Container className="pb-4 d-block justify-content-center">
                             <p className={ styles.text2 }>Kingston, Jamaica</p>
                         </Container>
-
                         <p className={ styles.text }> Contact Me</p>
                         <Container className="d-flex justify-content-center">
                             <a href={ data.github } target="_blank" rel="noopener noreferrer">
@@ -33,7 +32,7 @@ function FooterComponent () {
                             </a>
                             <a href={ data.email } target="_blank" rel="noopener noreferrer">
                                 <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
-                            </a> 
+                            </a>       
                         </Container>
                     </Col>
                     <Col className="align-self-center">
@@ -49,7 +48,7 @@ function FooterComponent () {
             </Container>
             
             {/* show for smaller screens */}
-            <Row className="m-0 p-1 d-lg-none d-xxl-block text-center justify-content-center">
+            <Row className="m-0 p-5 d-none d-lg-block d-xxl-none text-center justify-content-center">
                     <Container>
                         <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
                     </Container>
