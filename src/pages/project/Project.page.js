@@ -3,10 +3,11 @@ import { useParams } from 'react-router-dom';
 import { Container, Row } from "react-bootstrap";
 import NavComponent from "../../components/nav/nav.component";
 import FooterComponent from "../../components/footer/footer.component";
+import DevProjectDetailsComponent from "../../components/project-details/dev.component";
 import styles from "./Project.module.css";
 
 function ProjectPage () {
-    const { type, id } = useParams();
+    const { type } = useParams();
     return (
         <Container className="p-4">
             {/* navigation bar */}
@@ -17,7 +18,8 @@ function ProjectPage () {
             </Container>
 
             {/* projects section */}
-            <h3 className={ styles.heading }>{console.log(id)}</h3>
+            { (type === "development") ? <DevProjectDetailsComponent  /> : console.log("no") }
+            <h3 className={ styles.heading }>{console.log(type)}</h3>
 
             {/* footer */}
             <Container className={ styles.container }>

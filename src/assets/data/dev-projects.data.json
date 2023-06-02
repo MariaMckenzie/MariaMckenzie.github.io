@@ -2,34 +2,34 @@
     {
         "title": "Tin Paw",
         "description": " TinPaw, a website dedicated to providing information about the TinPaw app. The app itself offers a unique platform for pet owners to find suitable mates for their cats or dogs. The website serves as an introduction to this app and its features.",
-        "cover": "/tinpaw/cover.png",
+        "cover": "tinpaw/cover.png",
         "features": [],
-        "tech-used": [],
+        "tech-used": ["HTML", "CSS"],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    },
+    {
+        "title": "Fuel Guru",
+        "description": "A web application designed to help users find gas stations near their location with the best gas prices. The app relies on crowd-sourced information to compile and display a list of the top gas stations offering competitive prices.",
+        "cover": "fuelGuru/cover.png",
+        "features": ["Three types of users", "Gas station classification", ""],
+        "tech-used": ["HTML", "CSS", "JavaScript", "Vue.js"],
+        "challenges-solutions": [["challenge", "solution"]],
+        "screens": ["image links"]
+    },
+    {
+        "title": "FlashCard Plus",
+        "description": "b",
+        "cover": "flashcardPlus/cover.png",
+        "features": [],
+        "tech-used": ["HTML", "CSS", "JavaScript", "React"],
         "challenges-solutions": [["challenge", "solution"]],
         "screens": ["image links"]
     },
     {
         "title": "a",
         "description": "b",
-        "cover": "/temp.png",
-        "features": [],
-        "tech-used": [],
-        "challenges-solutions": [["challenge", "solution"]],
-        "screens": ["image links"]
-    },
-    {
-        "title": "a",
-        "description": "b",
-        "cover": "/temp.png",
-        "features": [],
-        "tech-used": [],
-        "challenges-solutions": [["challenge", "solution"]],
-        "screens": ["image links"]
-    },
-    {
-        "title": "a",
-        "description": "b",
-        "cover": "/temp.png",
+        "cover": "temp.png",
         "features": [],
         "tech-used": [],
         "challenges-solutions": [["challenge", "solution"]],
