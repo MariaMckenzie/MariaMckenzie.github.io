@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import data from "../../assets/data/about.data.json";
 import githubIcon from "../../assets/icons/github.svg";
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import emailIcon from "../../assets/icons/email.svg";
@@ -23,9 +24,15 @@ function FooterComponent () {
                     </Container>
                     <p className={ styles.text }> Contact Me</p>
                     <Container className="d-flex justify-content-center">
-                        <Image src={githubIcon} alt="Github Icon" fluid className={ styles.icons } />
-                        <Image src={linkedinIcon} alt="LinkedIn Icon" fluid className={ styles.icons } />
-                        <Image src={emailIcon} alt="Email Icon" fluid className={ styles.icons } />
+                        <a href={ data.github } target="_blank" rel="noopener noreferrer">
+                            <Image src={ githubIcon } alt="Github Icon" fluid className={ styles.icons } />
+                        </a>
+                        <a href={ data.linkedin } target="_blank" rel="noopener noreferrer">
+                            <Image src={ linkedinIcon } alt="LinkedIn Icon" fluid className={ styles.icons } />
+                        </a>
+                        <a href={ data.email } target="_blank" rel="noopener noreferrer">
+                            <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
+                        </a>
                     </Container>
                 </Col>
                 <Col className="align-self-center">
