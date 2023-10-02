@@ -1,5 +1,5 @@
 /* Extra small up to medium devices (phones and tablets, 300px and up) */
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     /* COLUMN 1 */
     .logo {
         width: 350px;
@@ -43,7 +43,6 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
     /* COLUMN 1 */
     .logo {
         max-height: 150px;
@@ -76,4 +75,3 @@
         color: var(--color5) !important;
         text-decoration: none !important;
     }
-}
