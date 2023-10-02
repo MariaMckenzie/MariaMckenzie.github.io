@@ -3,7 +3,7 @@ import { Col, Container, Form, FloatingLabel, Image, Row, Button} from "react-bo
 import image from "../../assets/images/send_message.svg";
 import emailIcon from "../../assets/icons/email_2.svg";
 import locationIcon from "../../assets/icons/location.svg";
-import NavComponent from "../../components/nav/nav.component";
+import NavComponent from "../../components/nav/Nav.component";
 import styles from "./Contact.module.css";
 
 const contactPage = () => {

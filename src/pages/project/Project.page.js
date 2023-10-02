@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
 import { Container, Row } from "react-bootstrap";
-import NavComponent from "../../components/nav/nav.component";
+import NavComponent from "../../components/nav/Nav.component";
 import FooterComponent from "../../components/footer/footer.component";
 import DevProjectDetailsComponent from "../../components/project-details/dev.component";
 import QAProjectDetailsComponent from "../../components/project-details/qa.component";

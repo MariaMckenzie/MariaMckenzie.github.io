@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import NavComponent from "../../components/nav/nav.component";
+import NavComponent from "../../components/nav/Nav.component";
 import IntroComponent from "../../components/intro/intro.component";
 import WhatIDoComponent from "../../components/what-i-do/whatIDo.component";
 import FooterComponent from "../../components/footer/footer.component";

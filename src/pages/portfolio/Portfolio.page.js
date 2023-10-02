@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import NavComponent from "../../components/nav/nav.component";
+import NavComponent from "../../components/nav/Nav.component";
 import QAProjectListComponent from "../../components/project-list/qa.component";
 import UIProjectListComponent from "../../components/project-list/ui.component";
 import DevProjectListComponent from "../../components/project-list/dev.component";

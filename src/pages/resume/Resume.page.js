@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Image, Row } from "react-bootstrap";
 import img from "../../assets/images/under_construction.svg"
-import NavComponent from "../../components/nav/nav.component";
+import NavComponent from "../../components/nav/Nav.component";
 import FooterComponent from "../../components/footer/footer.component";
 import styles from "./Resume.module.css";
 
