@@ -4,33 +4,33 @@
         "description": "b",
         "cover": "temp.png",
         "scope": "c",
-        "technologies": [],
-        "approach": [],
+        "technologies": ["Tech 1"],
+        "approach": "Approach",
         "challenges-solutions": [["challenge", "solution"]],
-        "results": [],
-        "future-enhancements": []
+        "results": "Result 1",
+        "future-enhancements": ["Enhancement 1"]
     },
     {
         "overview": "qa",
         "description": "b",
         "cover": "temp.png",
         "scope": "c",
-        "technologies": [],
-        "approach": [],
+        "technologies": ["Tech 1"],
+        "approach": "Approach",
         "challenges-solutions": [["challenge", "solution"]],
-        "results": [],
-        "future-enhancements": []
+        "results": "Result 1",
+        "future-enhancements": ["Enhancement 1"]
     },
     {
-        "overview": "aq",
+        "overview": "qa",
         "description": "b",
         "cover": "temp.png",
         "scope": "c",
-        "technologies": [],
-        "approach": [],
+        "technologies": ["Tech 1"],
+        "approach": "Approach",
         "challenges-solutions": [["challenge", "solution"]],
-        "results": [],
-        "future-enhancements": []
+        "results": "Result 1",
+        "future-enhancements": ["Enhancement 1"]
     },
     {
         "overview": "qa",
