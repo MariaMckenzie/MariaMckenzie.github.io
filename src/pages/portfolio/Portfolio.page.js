@@ -22,7 +22,7 @@ function PortfolioPage () {
             
             <UIProjectListComponent />
             <DevProjectListComponent />
-            {/* <QAProjectListComponent /> */}
+            <QAProjectListComponent /> 
 
             {/* footer */}
             <Container className={ styles.container }>

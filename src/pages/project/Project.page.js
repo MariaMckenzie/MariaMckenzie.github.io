@@ -12,17 +12,19 @@ function ProjectPage () {
     const { type } = useParams();
     return (
         <Container className="p-4">
-            {/* navigation bar */}
-            <Container>
+            <Container className={ styles.container }>
+                {/* navigation bar */}
                 <Row className="py-2">
                     <NavComponent />
                 </Row>
-            </Container>
 
-            {/* projects section */}
-            { (type === "development") ? <DevProjectDetailsComponent  /> : false}
-            { (type === "uiux") ? <UIProjectDetailsComponent  /> : false}
-            { (type === "qa") ? <QAProjectDetailsComponent  /> : false}
+                {/* projects section */}
+                <Row className="pb-4 px-4">
+                    { (type === "development") ? <DevProjectDetailsComponent  /> : false}
+                    { (type === "uiux") ? <UIProjectDetailsComponent  /> : false}
+                    { (type === "qa") ? <QAProjectDetailsComponent  /> : false}
+                </Row>
+            </Container>
 
             {/* footer */}
             <Container className={ styles.container }>

@@ -20,7 +20,7 @@ function QAProjectListComponent() {
                                 <Card.Img src={img} alt="LinkedIn Icon" fluid className={ styles.img }/>
                                 <Card.Title className={ styles.title }> { fakeTitle } </Card.Title>
                                 <Card.Text className={ styles.text }> { fakeText } </Card.Text>
-                                <Link role="button" to={`automation/${id+1}`} className={ styles.btn }>View Details</Link>
+                                <Link role="button" to={`/projects/qa/${id+1}`} className={ styles.btn }>View Details</Link>
                             </Card>
                         </Col>
                     ))
