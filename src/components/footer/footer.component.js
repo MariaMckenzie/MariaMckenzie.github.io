@@ -54,9 +54,9 @@ function FooterComponent () {
                             <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
                                 Resume
                             </Link>
-                            {/* <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
+                            <Link to="/certificate" className={ [styles.link, styles.text].join(" ") }>
                                 Certificates
-                            </Link> */}
+                            </Link>
                         </Container>
                     </Col>
                 </Row>
@@ -103,9 +103,9 @@ function FooterComponent () {
                     <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
                         Resume
                     </Link>
-                    {/* <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
+                    <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
                         Certificates
-                    </Link> */}
+                    </Link>
                 </Container>
             </Row>
         </Container>
