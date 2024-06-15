@@ -17,13 +17,13 @@ function UIProjectDetailsComponent ( ) {
                 <Row>
                     <Col className="text-start py-5 px-0 m-0">
                         { id === "1" ? true : <Link role="button" to={`/projects/uiux/${Number(id)-1}`} className={ styles.btn }>
-                            <Image src={ arrowLeft } alt="Left Arrow" fluid className={ styles.icons } /> View Previous Project
+                            <Image src={ arrowLeft } alt="Left Arrow" fluid className={ styles.icons } /> Previous Project
                             </Link> 
                         }
                     </Col>
                     <Col className="text-end py-5 px-0 m-0">
                         { id === "3" ? true : <Link role="button" to={`/projects/uiux/${Number(id)+1}`} className={ styles.btn }>
-                            View Next Project<Image src={ arrowRight } alt="Right Arrow" fluid className={ styles.icons } /> 
+                            Next Project<Image src={ arrowRight } alt="Right Arrow" fluid className={ styles.icons } /> 
                             </Link> 
                         }
                     </Col>

@@ -14,10 +14,13 @@ function DevProjectDetailsComponent ( ) {
     return (
         <Container className="m-0 p-0">
             <Container>
-                <Row>
+                <Row className="align-items-center">
                     <Col className="text-start py-5 px-0 m-0">
-                        { id === "1" ? true : <Link role="button" to={`/projects/development/${Number(id)-1}`} className={ styles.btn }><Image src={ arrowLeft } alt="Left Arrow" fluid className={ styles.icons } /> View Previous Project
-                        </Link> }
+                        { id === "1" ? true : 
+                            <Link role="button" to={`/projects/development/${Number(id)-1}`} className={ styles.btn }>
+                                <Image src={ arrowLeft } alt="Left Arrow" fluid className={ styles.icons } /> View Previous Project
+                            </Link> 
+                        }
                     </Col>
                     <Col className="text-end py-5 px-0 m-0">
                         { id === "3" ? true : <Link role="button" to={`/projects/development/${Number(id)+1}`} className={ styles.btn }>View Next Project
