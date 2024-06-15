@@ -54,6 +54,7 @@
         font-weight: 500;
         color: white;
         align-self: center !important;
+        text-decoration: none;
     }
 
     .btn:hover {

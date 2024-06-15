@@ -16,14 +16,14 @@ function FooterComponent () {
                 <Row>
                     {/* Container for image */}
                     <Col className="align-self-center">
-                        <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
+                        <Image src={ fulllogo } alt="Logo" fluid className={ styles.logo } />
                     </Col>
 
                     <Col className="text-center align-self-center">
                         {/* Container for location information */}
                         <Container className="pb-4 d-block justify-content-center">
                             <p className={ styles.heading }>Location</p>
-                            <p className={ styles.text }>Kingston, Jamaica</p>
+                            <p>Kingston, Jamaica</p>
                         </Container>
 
                         {/* Container for contact information */}
@@ -45,16 +45,16 @@ function FooterComponent () {
                         {/* Container for navigation links */}
                         <Container className="d-flex flex-column text-end ">
                             <p className={ styles.heading }>Important Links</p>
-                            <Link to="/" className={ [styles.link, styles.text].join(" ") }>
+                            <Link to="/" className={ styles.link }>
                                 Home
                             </Link>
-                            <Link to="/portfolio" className={ [styles.link, styles.text].join(" ") }>
+                            <Link to="/portfolio" className={ styles.link }>
                                 Portfolio
                             </Link>
-                            <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
+                            <Link to="/resume" className={ styles.link }>
                                 Resume
                             </Link>
-                            <Link to="/certificate" className={ [styles.link, styles.text].join(" ") }>
+                            <Link to="/certificate" className={ styles.link }>
                                 Certificates
                             </Link>
                         </Container>
@@ -72,7 +72,7 @@ function FooterComponent () {
                 {/* Container for location information */}
                 <Container className="d-block my-5">
                     <p className={ styles.heading }>Location</p>
-                    <p className={ styles.text }>Kingston, Jamaica</p>
+                    <p>Kingston, Jamaica</p>
                 </Container>
 
                 {/* Container for contact information */}
@@ -94,16 +94,16 @@ function FooterComponent () {
                 {/* Container for navigation links */}
                 <Container className="d-flex flex-column mb-2">
                     <p className={ styles.heading }>Important Links</p>
-                    <Link to="/" className={ [styles.link, styles.text].join(" ") }>
+                    <Link to="/" className={ styles.link }>
                         Home
                     </Link>
-                    <Link to="/portfolio" className={ [styles.link, styles.text].join(" ") }>
+                    <Link to="/portfolio" className={ styles.link }>
                         Portfolio
                     </Link>
-                    <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
+                    <Link to="/resume" className={ styles.link }>
                         Resume
                     </Link>
-                    <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
+                    <Link to="/certificate" className={ styles.link }>
                         Certificates
                     </Link>
                 </Container>
