@@ -10,20 +10,26 @@ import styles from "./footer.module.css";
 
 function FooterComponent () {
     return (
-            <Container>
-            {/* show for larger screens */}
-            <Container className="m-0 p-5 d-lg-none d-xxl-block">
+        <Container>
+            {/* visible on larger screens only */}
+            <Container className="m-0 p-5 d-none d-lg-block">
                 <Row>
+                    {/* Container for image */}
                     <Col className="align-self-center">
                         <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
                     </Col>
+
                     <Col className="text-center align-self-center">
-                        <p className={ styles.text }> Location</p>
+                        {/* Container for location information */}
                         <Container className="pb-4 d-block justify-content-center">
-                            <p className={ styles.text2 }>Kingston, Jamaica</p>
+                            <p className={ styles.heading }>Location</p>
+                            <p className={ styles.text }>Kingston, Jamaica</p>
                         </Container>
-                        <p className={ styles.text }> Contact Me</p>
-                        <Container className="d-flex justify-content-center"><a href={ data.github } target="_blank" rel="noopener noreferrer">
+
+                        {/* Container for contact information */}
+                        <p className={ styles.heading }>Contact Me</p>
+                        <Container className="d-flex justify-content-center">
+                            <a href={ data.github } target="_blank" rel="noopener noreferrer">
                                 <Image src={ githubIcon } alt="Github Icon" fluid className={ styles.icons } />
                             </a>
                             <a href={ data.linkedin } target="_blank" rel="noopener noreferrer">
@@ -34,34 +40,44 @@ function FooterComponent () {
                             </a>       
                         </Container>
                     </Col>
+
                     <Col className="align-self-center">
+                        {/* Container for navigation links */}
                         <Container className="d-flex flex-column text-end ">
-                            <p className={ styles.text }>Important Links</p>
-                            <Link to="/" className={ styles.link }>Home</Link>
-                            <Link to="/portfolio" className={ styles.link }>Portfolio</Link>
-                            <Link to="/resume" className={ styles.link }>Resume</Link>
-                            {/* <Link to="/certificate" className={ styles.link }>Certificates</Link> */}
+                            <p className={ styles.heading }>Important Links</p>
+                            <Link to="/" className={ [styles.link, styles.text].join(" ") }>
+                                Home
+                            </Link>
+                            <Link to="/portfolio" className={ [styles.link, styles.text].join(" ") }>
+                                Portfolio
+                            </Link>
+                            <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
+                                Resume
+                            </Link>
+                            {/* <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
+                                Certificates
+                            </Link> */}
                         </Container>
                     </Col>
                 </Row>
             </Container>
             
-            {/* show for smaller screens */}
-            <Row className="m-0 p-5 d-none d-lg-block d-xxl-none text-center justify-content-center">
-                    <Container>
-                        <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
-                    </Container>
+            {/* visible on medium to small screens only */}
+            <Row className="m-0 p-5 text-center justify-content-center d-block d-md-block d-lg-none">
+                {/* Container for image */}
+                <Container className="mb-4">
+                    <Image src={fulllogo} alt="Logo" fluid className={ styles.logo } />
+                </Container>
 
-                    <Container className={ styles.footerDecor }></Container>
+                {/* Container for location information */}
+                <Container className="d-block my-5">
+                    <p className={ styles.heading }>Location</p>
+                    <p className={ styles.text }>Kingston, Jamaica</p>
+                </Container>
 
-                    <Container className="d-block">
-                        <p className={ styles.text }> Location</p>
-                        <p className={ styles.text2 }>Kingston, Jamaica</p>
-                    </Container>
-
-                    <Container className={ styles.footerDecor }></Container>
-
-                    <p className={ styles.text }> Contact Me</p>
+                {/* Container for contact information */}
+                <Container className="my-5">
+                    <p className={ styles.heading }>Contact Me</p>
                     <Container className="d-flex justify-content-center">
                         <a href={ data.github } target="_blank" rel="noopener noreferrer">
                             <Image src={ githubIcon } alt="Github Icon" fluid className={ styles.icons } />
@@ -73,16 +89,24 @@ function FooterComponent () {
                             <Image src={ emailIcon } alt="Email Icon" fluid className={ styles.icons } />
                         </a>                        
                     </Container>
-
-                    <Container className={ styles.footerDecor }></Container>
+                </Container>
                     
-                    <Container className="d-flex flex-column pb-4">
-                        <p className={ styles.text }>Important Links</p>
-                        <Link to="/" className={ styles.link }>Home</Link>
-                        <Link to="/portfolio" className={ styles.link }>Portfolio</Link>
-                        <Link to="/resume" className={ styles.link }>Resume</Link>
-                        {/* <Link to="/certificate" className={ styles.link }>Certificates</Link> */}
-                    </Container>
+                {/* Container for navigation links */}
+                <Container className="d-flex flex-column mb-2">
+                    <p className={ styles.heading }>Important Links</p>
+                    <Link to="/" className={ [styles.link, styles.text].join(" ") }>
+                        Home
+                    </Link>
+                    <Link to="/portfolio" className={ [styles.link, styles.text].join(" ") }>
+                        Portfolio
+                    </Link>
+                    <Link to="/resume" className={ [styles.link, styles.text].join(" ") }>
+                        Resume
+                    </Link>
+                    {/* <Link to="/certificate" className={ [styles.link, styles.text2].join(" ") }>
+                        Certificates
+                    </Link> */}
+                </Container>
             </Row>
         </Container>
         
