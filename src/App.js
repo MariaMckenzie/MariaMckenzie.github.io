@@ -6,6 +6,7 @@ import PortfolioPage from "./pages/portfolio/Portfolio.page";
 import ProjectPage from "./pages/project/Project.page";
 import ContactPage from "./pages/contact/Contact.page";
 import ResumePage from "./pages/resume/Resume.page";
+import CertificatesPage from "./pages/certificates/Certificates.page";
 import ErrorPage from "./pages/error/Error.page";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/resume" exact element={<ResumePage />} />
 					<Route path="/contact-me" exact element={<ContactPage />} />
 					<Route path="/projects/:type/:id" exact element={<ProjectPage />} />
+					<Route path="/certificates" exact element={<CertificatesPage />} />
                     
 					{/* Error Page */}
 					<Route path="/*" element={<ErrorPage />} />

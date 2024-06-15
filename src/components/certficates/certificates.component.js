@@ -19,7 +19,7 @@ function CertificatesComponent() {
                                 <Container className={ styles.cardDecor }></Container>
                                 <Card.Title className={ styles.title }> { data[id].title } </Card.Title>
                                 <Card.Text className={ styles.text }> { data[id].organisation } </Card.Text>
-                                <Card.Text className={ styles.text }> { data[id].date } </Card.Text>
+                                <Card.Text className={ styles.text }> - { data[id].date } </Card.Text>
                             </Card>
                         </Col>
                     ))

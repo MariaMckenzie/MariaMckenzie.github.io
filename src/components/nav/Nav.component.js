@@ -1,6 +1,6 @@
 import React from "react"; 
 import { NavLink } from "react-router-dom";
-import { Container, Image, Nav, Navbar } from "react-bootstrap";
+import { Container, Image, Nav, Navbar, Row } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import styles from "./nav.module.css";
 
@@ -13,7 +13,7 @@ function NavComponent () {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className={ styles.collapseNav } >
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto" activeKey={ window.location.pathname }>
                         {/* need to check to see if the link is active */}
                         <NavLink to="/" className={ styles.link }>
                             Home

@@ -1,9 +1,8 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import intro_data from "../../assets/data/intro.data.json";
 import data from "../../assets/data/about.data.json";
-import img from "../../assets/images/pic1.png";
+import img from "../../assets/images/pic3.png";
 import githubIcon from "../../assets/icons/github.svg";
 import linkedinIcon from "../../assets/icons/linkedin.svg";
 import emailIcon from "../../assets/icons/email.svg";
@@ -11,16 +10,15 @@ import styles from "./intro.module.css";
 
 function IntroComponent() {
     return (
-        <Row className={ [styles.row, "m-0 align-items-center container-fluid"].join(" ") }>
-
+        <Row className={ [styles.row, "m-0 align-items-center container-fluid"].join(" ") }>   
             {/* show for smaller screens */}
-            <Col className="d-lg-none d-xxl-block pb-4">
+            <Col className="d-lg-none d-xxl-block p-0">
                 <Image src={img} alt="profile image" fluid className={styles.img} />
             </Col>
 
-            <Col lg={7} className="p-0">
-                <h4 className={ styles.heading }>Hello I'm { data.name.split(" ")[0] }</h4>
-                <h2 className={ styles.subheading }>{ intro_data.about }</h2>
+            <Col lg={8} className="p-0">
+                <p className={ styles.heading }>Hello I'm { data.name.split(" ")[0] }</p>
+                <p className={ styles.heading3 }> iTest. iDesign. iDevelop. </p>
 
                 {/* show for smaller screens */}
                 <Container className="py-3 d-flex px-0 justify-content-center d-lg-none d-xxl-block pb-4">

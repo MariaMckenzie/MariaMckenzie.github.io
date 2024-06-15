@@ -40,14 +40,14 @@
         text-decoration: none;
         font-weight: 500;
         margin: 0 30px;
-        
+        border-bottom: 1.4px solid white;
     }
     
     .link:hover, .link.active {
         color: var(--color4) !important;
-        /* border-bottom: 1px solid var(--color4) !important; */
         text-decoration: none !important;
-        font-weight: 700 !important;
+        font-weight: 500 !important;
+        border-bottom: 1.4px solid var(--color4);
     }
     .collapseNav div {
         padding-top: 0px
