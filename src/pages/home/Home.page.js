@@ -3,6 +3,8 @@ import { Container, Row } from "react-bootstrap";
 import NavComponent from "../../components/nav/Nav.component";
 import IntroComponent from "../../components/intro/intro.component";
 import WhatIDoComponent from "../../components/what-i-do/whatIDo.component";
+import PortfolioComponent from "../../components/portfolio/portfolio.component";
+//import CertificatesComponent from "../../components/certificates/certificates.component";
 import FooterComponent from "../../components/footer/footer.component";
 import styles from "./Home.module.css";
 
@@ -27,6 +29,20 @@ function HomePage () {
 					<WhatIDoComponent />
 				</Row>
             </Container>
+
+			{/* portfolio section */}
+            <Container>
+                <Row className="py-4">
+					<PortfolioComponent />
+				</Row>
+            </Container>
+
+			{/* certificates section */}
+            {/* <Container>
+                <Row className="py-4">
+					<CertificatesComponent />
+				</Row>
+            </Container> */}
 
             {/* footer */}
             <Container className={ styles.container }>
