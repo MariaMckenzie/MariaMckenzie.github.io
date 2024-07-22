@@ -95,7 +95,7 @@
 
     .icons {
         max-height: 30px;
-        margin-right: 10px;
+        margin-right: 20px;
         margin-bottom: 20px;
     }
 
@@ -137,5 +137,6 @@
     .img {
         max-height:400px !important;
         border-radius: 50%;
+        pointer-events: none;
     }
 }

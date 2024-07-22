@@ -4,16 +4,15 @@
     background-color: none !important;
     background: none !important;   
     margin: 0;
-    margin-top: auto;
     font-size: 12px;
     font-weight: 500;
-    color: #999999;
+    color: var(--gray);
     text-decoration: none;
     text-align: center;
 }
 
 .btn:hover {
-    color: #999999;
+    color: var(--gray);
 }
 
 .icons {
@@ -22,39 +21,104 @@
     padding-bottom: 1px;
 }
 
-.backBtn {
-    border: 1.4px solid white;
-    border-radius: 7px;
-    padding: 5px 10px;
-    max-width: 100px;
-    background-color: none !important;
-    background: none !important;   
-    margin: 0;
-    margin-top: auto;
-    font-weight: 500;
-    color: white;
-    text-decoration: none;
-    text-align: center;
+.tickIcon {
+    max-height: 25px;
+    margin-right: 5%;
 }
 
-.backBtn:hover {
-    /* color: #314D51; */
-    border: 1.4px solid white !important;
-    background-color: white !important;
-    color: var(--color5);
-}
 
 .subheading {
-    color: var(--color3);
-    text-transform: capitalize;
+    color: var(--color4);
+    text-transform: uppercase;
     letter-spacing: normal;
-    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.subheading2 {
+    color: var(--color4);
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .heading {
     color: var(--color5);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase !important;
 }
 
 .info {
     margin-bottom: 3%;
+    text-align: center;
 }
+
+.info2 {
+    color: white;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: #314d51 0px 1px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    border: 1.4px solid var(--color4);
+    border-radius: 12px;
+    background-image: linear-gradient(to right, var(--color4), var(--color5));
+}
+
+.container2 p {
+    color: white;
+    text-align: start;
+}
+
+.userImg {
+    border-radius: 50%;
+    max-height: 250px;
+}
+
+.heading3 {
+    font-weight: 500;
+}
+
+.card {
+    /* opacity: 0.5; */
+    background: none;
+    border: 1.4px solid var(--color3);
+    border-radius: 10px;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.cardDecor {
+    border-top: 2px solid var(--color4);
+    border-top-width: 5px;
+    padding: 10px;
+    max-width: 10px;
+    margin: 0;
+    margin-right: 2%;
+    align-self: center;
+}
+
+.separator {
+    border-bottom: 1.4px dashed white;
+    margin: 40px 0;
+}
+
+.img {
+    max-height: fit-content;
+}
+
