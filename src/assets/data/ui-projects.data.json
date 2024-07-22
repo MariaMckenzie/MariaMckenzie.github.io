@@ -1,74 +1,167 @@
 [
     {
         "title": "Anansi",
-        "description": "A cryptocurrency website that offers a range of features to users interested in trading and investing in cryptocurrencies. The website serves as a platform where users can make trades, access crypto options, and even copy trades from experienced traders.",
-        "cover": "anansi/cover.png",
-        "problem-statement": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "goals": ["Goal 1", "Goal 2"],
-        "business-challenges": ["Challenge 1", "Challenge 2"],
-        "user-challenges": ["Challenge 1", "Challenge 2"],
-        "product-users": ["User 1", "User 2"],
-        "research": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "competitor-analysis": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "features": ["Feature 1"],
-        "user-persona": ["Persona 1"],
-        "task-flow": ["image links"],
-        "sketches": ["image links"],
-        "major-screens": ["image links"],
-        "other-screens": ["image links"]
+        "description": "A trading platform designed to cater to both novice and experienced traders. It offers a comprehensive suite of features to enhance the trading experience, making it easier and more profitable for users to engage in cryptocurrency markets.",
+        "cover": [
+            "ui/anansi/cover1.png",
+            "ui/anansi/cover2.png"
+        ],
+        "problem-statement": "People interested in cryptocurrency tend to face difficulties when finding a comprehensive platform that allows them to trade, access various crypto options, and learn from experienced traders. There is a need for a comprehensive cryptocurrency trading platform that caters to both novice and experienced traders, offering advanced features such as copy trading, crypto options trading, and access to advanced analytics and market data.",
+        "goals": [
+            "Provide a seamless trading experience",
+            "Ensure the platform supports a wide range of cryptocurrency trades.", 
+            "Allow users to copy trades from experienced traders to learn and improve their trading strategies.",
+            "Introduce features that keep users actively involved in the platform."
+        ],
+        "business-challenges": [
+            "Differentiating the platform from existing cryptocurrency trading websites due to high competition.",
+            "Ensuring the platform adheres to various global financial regulations.",
+            "Protecting the platform from hacking and fraud.",
+            "Managing the impact of cryptocurrency market fluctuations on the platform's operations."
+        ],
+        "user-challenges": [
+            "The complexity of the trading process for beginners.",
+            "Providing educational tools to help users make informed trading decisions.",
+            "Ensuring users feel confident in the platform's security measures.",
+            "Designing an intuitive and user-friendly interface."
+        ],
+        "product-users": [
+            "New users who are just starting out with cryptocurrency trading.",
+            "Users with significant trading experience looking for advanced tools and features.",
+            "Individuals interested in long-term investments in cryptocurrencies.",
+            "Users who are interested in staying updated with cryptocurrency trends and news."
+        ],
+        "research": "Research involved looking at current trends within the cryptocurrency space and continuously testing protypes to identify usability issues.",
+        "competitor-analysis": "Coinbase, Binance and eToro are just a few competitors who are known for their user-friendly interfaces, and unique ways of allowing users to learn and make trades",
+        "features": [
+            "Trading Platform that supports various cryptocurrencies and trading pairs.",
+            "Copy Trading that allows users to replicate trades from experienced traders.",
+            "Access to different cryptocurrency options and investment opportunities.",
+            "Provides real-time data, technical analysis, and trend identification tools.",
+            "Personalised dashboard displaying portfolio, market trends, and trading history.",
+            "Utilises AI algorithms for market analysis and trading recommendations.",
+            "Security Features that ensure data protection and secure transaction processing."
+        ],
+        "user-persona": {
+            "name": "Alex Thompson",
+            "age": 28,
+            "occupation": "Software Developer",
+            "goals": "Wants to learn about cryptocurrency trading and make informed investment decisions.",
+            "pain-points": "Finds most trading platforms complex and intimidating.",
+            "img": "ui/anansi/user.jpg"
+        },
+        "web-flow": "ui/anansi/flowchart.png",
+        "major-screens": "ui/anansi/major-screens.pdf",
+        "other-screens": "ui/anansi/other-screens.pdf"
     },
     {
-        "title": "FlashCard Plus",
-        "description": "A website designed to assist individuals in their studying efforts through the use of flashcards. The site provides a comprehensive platform for users to create, manage, and study flashcard decks for exams and quizzes.",
-        "cover": "flashcardPlus/cover.png",
-        "problem-statement": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "goals": ["Goal 1", "Goal 2"],
-        "business-challenges": ["Challenge 1", "Challenge 2"],
-        "user-challenges": ["Challenge 1", "Challenge 2"],
-        "product-users": ["User 1", "User 2"],
-        "research": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "competitor-analysis": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "features": ["Feature 1"],
-        "user-persona": ["Persona 1"],
-        "task-flow": ["image links"],
-        "sketches": ["image links"],
-        "major-screens": ["image links"],
-        "other-screens": ["image links"]
+        "title": "Coconut Industry Board",
+        "description": "The official website of the Coconut Industry Board, the authoritative source for all things related to the coconut industry in our country. The website provides valuable information, resources, and opportunities for engagement as well as information about the latest research, industry news, and annual reports and a marketplace to purchase coconut-based products from trusted farmers.",
+        "cover": [
+            "ui/coconut-board/cover1.png",
+            "ui/coconut-board/cover2.png"
+        ],
+        "problem-statement": "The Coconut Industry Board needed a more comprehensive, user-friendly website to provide information about the industry, promote and sell coconut-based products, support new farmers, and engage with stakeholders and the public effectively.",
+        "goals": [
+            "Provide detailed information about the coconut industry, including research, reports, and news.",
+            "Create an online marketplace to sell coconut-based products directly to consumers.",
+            "Facilitate the registration of new farmers and provide them with resources and training.",
+            "Increase engagement with stakeholders through social media highlights, events, and partnerships."
+        ],
+        "business-challenges": [
+            "Integrating e-commerce functionality with informational content.",
+            "Ensuring the website is user-friendly for a diverse audience.",
+            "Keeping the content up-to-date and relevant."
+        ],
+        "user-challenges": [
+            "Users may have difficulty finding specific information or products without a well-structured navigation system..", 
+            "New farmers might find the current registration process time consuming.",
+            "Keeping users engaged with regular updates and interactive content."
+        ],
+        "product-users": [
+            "New and existing orange farmers seeking information, resources, and registration.", 
+            "Individuals looking to purchase coconut products.",
+            "Those interested in research and reports related to the coconut industry.",
+            "Partners and investors looking for engagement and collaboration opportunities."
+        ],
+        "research": "Extensive research was conducted to identify similar solutions. Inspiration was drawn from the websites of other agricultural and industry boards, analyzing their strengths and weaknesses. Additionally, feedback from stakeholders was gathered and incorporated into the design process to ensure the final redesign meets the needs and expectations of all users. This comprehensive approach helped create a user-friendly and functional website tailored to the coconut industry. ",
+        "competitor-analysis": "There are existing industry boards that serve a similar purpose as the Coconut Industry Board which include the Coffee Industry Board. However, these boards only cater to the certain industries within the agricultural space and as such would not benefit the end-users unless they were a part of that industry also.",
+        "features": [
+            "Overview of the coconut industry, latest news, and highlights.", 
+            "Detailed product listings with e-commerce functionality.",
+            "Information sharing, social media highlights, and news updates.",
+            "Resources and training materials for farmers.",
+            "Information about current partnerships and how to become a partner.",
+            "Easy registration process for new and existing farmers.",
+            "Contact information and forms for inquiries.",
+            "Information about the existing coconut farms and the parishes they are located in",
+            "Ability to download yearly industry reports and view the board's research on issues that may affect coconut trees."
+        ],
+        "user-persona": {
+            "name": "Walter Brown",
+            "age": 38,
+            "occupation": "Coconut Farmer",
+            "goals": "Improve study efficiency, organize study materials, and perform well in exams.",
+            "pain-points": "Gaining access to resources and support for coconut farming, stay updated with industry trends, and connect with the board for assistance.",
+            "img": "ui/coconut-board/user.jpg"
+        },
+        "web-flow": "ui/coconut-board/flowchart.png",
+        "major-screens": "ui/coconut-board/major-screens.pdf",
+        "other-screens": "ui/coconut-board/other-screens.pdf"
     },
     {
-        "title": "Fuel Guru",
-        "description": "A web application designed to help users find gas stations near their location with the best gas prices. The app relies on crowd-sourced information to compile and display a list of the top gas stations offering competitive prices.",
-        "cover": "fuelGuru/cover.png",
+        "title": "CDA Asset Tracker",
+        "description": "A web application designed to help a campany with managing and tracking their workforce, project progress, and site operations in real-time. In some cases this may prevent potential project delays, safety issues, and increased costs for workers.",
+        "cover": ["ui/cda-asset-tracker/cover1.png", "ui/cda-asset-tracker/cover2.png"],
         "problem-statement": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "goals": ["Goal 1", "Goal 2"],
-        "business-challenges": ["Challenge 1", "Challenge 2"],
-        "user-challenges": ["Challenge 1", "Challenge 2"],
-        "product-users": ["User 1", "User 2"],
-        "research": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "competitor-analysis": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "features": ["Feature 1"],
-        "user-persona": ["Persona 1"],
-        "task-flow": ["image links"],
-        "sketches": ["image links"],
-        "major-screens": ["image links"],
-        "other-screens": ["image links"]
-    },
-    {
-        "title": "a",
-        "description": "b",
-        "cover": "fuelGuru/cover.png",
-        "problem-statement": "c",
-        "goals": [],
-        "business-challenges": [],
-        "user-challenges": [],
-        "product-users": "d",
-        "research": "e",
-        "competitor-analysis": "f",
-        "features": [],
-        "user-persona": [],
-        "task-flow": ["image links"],
-        "sketches": ["image links"],
-        "major-screens": ["image links"],
-        "other-screens": ["image links"]
+        "goals": [
+            "Provide real-time updates on the number of workers checked in on-site.",
+            "Track the progress of projects in real-time.",
+            "Enable efficient check-in/check-out of workers.",
+            "Generate detailed construction reports.",
+            "Facilitate the management of construction teams, including adding, modifying, and assigning team leaders."
+        ],
+        "business-challenges": [
+            "Ensuring real-time accuracy of worker and project tracking data.",
+            "Integrating the system seamlessly with existing project management processes.",
+            "Ensuring data security and privacy of workers.",
+            "Managing large volumes of data efficiently.",
+            "Training staff to use the new system effectively."
+        ],
+        "user-challenges": [
+            "Difficulty in real-time tracking of workforce and project progress.",
+            "Lack of efficient check-in/check-out processes that monitor when workers are on-site for jobs.",
+            "Inability to quickly generate and access comprehensive reports."
+        ],
+        "product-users": [
+            "Site Managers",
+            "Project Managers",
+            "Construction Workers",
+            "HR and Administrative Staff"
+        ],
+        "research": "Interviews with construction company to understand their pain points and needs. The explanations of current workflows and processes on construction sites were utilised to understand how current processes may be limiting. Analysis of existing asset and workforce tracking systems to identify strengths and weaknesses.",
+        "competitor-analysis": "There are numerous construction management applications that offer one or more of the features that exis in this application. These include Procore, PlanGrid among others.",
+        "features": [
+            "Real-time check-in/check-out system for workers.",
+            "Real-time progress tracking of projects.",
+            "Real-time updates on the number of people on-site.",
+            "Map view to track where workers are checked in and team locations.",
+            "Team management functionality (add, modify teams, assign team leaders).",
+            "Generation of detailed construction reports.",
+            "Mobile app for easy access and updates from the field."
+
+        ],
+        "user-persona": {
+            "name": "Peter Smith",
+            "age": 33,
+            "occupation": "Site Manager",
+            "goals": "Ensure project timelines are met, maintain worker safety, manage workforce efficiently.",
+            "pain-points": "Keeping track of worker attendance, ensuring real-time updates, managing multiple teams.",
+            "needs": "A user-friendly platform with that can assist with managing mutiple teams and provide real-time updates on project progress.",
+            "img": "ui/cda-asset-tracker/user.jpg"
+        },
+        "web-flow": "ui/cda-asset-tracker/flowchart.png",
+        "major-screens": "ui/cda-asset-tracker/major-screens.pdf",
+        "other-screens": "ui/cda-asset-tracker/major-screens.pdf"
     }
 ]
