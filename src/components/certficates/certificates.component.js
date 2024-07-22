@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import data from "../../assets/data/certificates.data.json";
 import styles from "./certificates.module.css";
 
