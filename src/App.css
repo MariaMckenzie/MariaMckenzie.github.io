@@ -6,7 +6,7 @@
   --color1: #D6D2B5;
   --color2: #CBA45E;
   --color3: #A1C2C7;
-  --color4: #749FA5;
+  --color4: #82a9ae;
   --color5: #507F85;
   --black: #242424;
   --gray: #999999;
@@ -19,7 +19,7 @@
 
 #root {
   /* background color of webpage */
-  background-image: linear-gradient(to right, var(--color3), var(--color5));
+  background-image: linear-gradient(to right, var(--color4), var(--color5));
 }
 
 h3, h4, h5 {
@@ -29,4 +29,7 @@ h3, h4, h5 {
     text-transform: uppercase;
 }
 
+img {
+  pointer-events: none;
+}
 
