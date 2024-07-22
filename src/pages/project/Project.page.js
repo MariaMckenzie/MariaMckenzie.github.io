@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { Container, Row } from "react-bootstrap";
 import NavComponent from "../../components/nav/Nav.component";
 import FooterComponent from "../../components/footer/footer.component";
@@ -25,6 +25,11 @@ function ProjectPage () {
                     { (type === "qa") ? <QAProjectDetailsComponent  /> : false}
                 </Row>
             </Container>
+
+            {/* back to portfolio */}
+            {/* <Container className="pt-5 px-0 text-center">
+                <Link role="button" to={"/portfolio"} className={ styles.backBtn }>View All Projects</Link>
+            </Container> */}
 
             {/* footer */}
             <Container className={ styles.container }>

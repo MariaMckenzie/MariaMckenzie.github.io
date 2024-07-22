@@ -12,6 +12,28 @@
     align-items: center;
 }
 
+.backBtn {
+    border: 1.4px solid white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    max-width: 100px;
+    background-color: none !important;
+    background: none !important;   
+    margin: 0;
+    margin-top: auto;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.backBtn:hover {
+    /* color: #314D51; */
+    border: 1.4px solid white !important;
+    background-color: white !important;
+    color: var(--color5);
+}
+
 
 /* Extra small up to medium devices (phones and tablets, 300px and up) */
 @media (max-width: 991px) {
