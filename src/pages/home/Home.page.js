@@ -32,14 +32,14 @@ function HomePage () {
 
 			{/* portfolio section */}
             <Container>
-                <Row className="py-4">
+                <Row className="pb-4">
 					<PortfolioComponent />
 				</Row>
             </Container>
 
 			{/* certificates section */}
             <Container>
-                <Row className="py-4">
+                <Row className="py-2">
 					<CertificatesComponent />
 				</Row>
             </Container> 

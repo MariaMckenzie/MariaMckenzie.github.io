@@ -19,10 +19,10 @@ function PortfolioComponent () {
                     Array.from({ length: 3 }).map((_, id) => (
                         <Container className={ [styles.container, "p-5 mb-5" ].join(" ") }>
                             <Row>
-                                <Col className="col-4">
+                                <Col lg={4}>
                                     <Image src={ require(`../../assets/images/projects/${data[id].cover[0]}`) } alt="Portfolio Image" fluid className={ styles.img }/>
                                 </Col>
-                                <Col className="col-8">
+                                <Col lg={8}>
                                     <h5 className={ styles.title }>{ data[id].title }</h5>
                                     <p className="pb-3">{ data[id].description }</p>
                                     <Link role="button" to={`/projects/uiux/${id+1}`} className={ styles.btn }>

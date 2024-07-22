@@ -11,7 +11,7 @@ function CertificatesComponent() {
     return (
         <Container className={ [styles.container, "m-0"].join(" ") }>
             <h3 className={ styles.heading }>Certificates</h3>
-            <Row className="row-cols-auto text-start">
+            <Row className="row-cols-auto text-start gap-3">
                 {/* add cards from json file */
                     Array.from({ length: len }).map((_, id) => (
                         <Col key={`cert-${id}`} className="mx-auto">
