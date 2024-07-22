@@ -3,6 +3,9 @@
     .heading {
         text-align: center;
     }
+    .col .card {
+        margin: 90px !important;
+    }
 }
 
 .container {
