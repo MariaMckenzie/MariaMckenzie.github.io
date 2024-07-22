@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.container2 {
+    padding: 50px;
+}
+
 .heading {
     color:  white;
     padding-top: 20px;

@@ -1,92 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import githubIcon from "../../assets/icons/github.svg";
-import linkedinIcon from "../../assets/icons/linkedin.svg";
-import emailIcon from "../../assets/icons/email.svg";
-import fulllogo from "../../assets/images/full_logo.png";
-import data from "../../assets/data/about.data.json";
+import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import data from "../../assets/data/ui-projects.data.json";
 import styles from "./portfolio.module.css";
 
 function PortfolioComponent () {
     return (
-        <Container>
+        <Container className={ [styles.container2, "m-0"].join(" ") }>
             {/* heading */}
             <h3 className={ styles.heading }>
-                Portfolio
+                Projects
             </h3>
 
             {/* top 3 projects */}
-
-            {/* project 1 */}
-            <Container className={ [styles.container, "p-5 mb-5" ].join(" ") }>
-                <Row>
-                    <Col className="col-4">
-                        <Image src={ require(`../../assets/images/temp.png`) } alt="Portfolio Image" fluid className={ styles.img }/>
-                    </Col>
-                    <Col className="col-8">
-                        <h5 className={ styles.title }>
-                            Ppoject Title
-                        </h5>
-
-                        <p className="pb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet vestibulum purus, sed bibendum augue. 
-                        In enim risus, viverra vitae lorem ac, fringilla gravida lorem. Nulla rutrum maximus lectus sit amet 
-                        pellentesque. Vestibulum interdum condimentum enim eget condimentum. Integer a bibendum turpis. Integer 
-                        suscipit elit fringilla dolor viverra, id lacinia purus fermentum. Fusce mollis nunc nec imperdiet condimentum
-                        </p>
-                        <Link role="button" to={`/projects/development/1}`} className={ styles.btn }>
-                            View Details
-                        </Link>
-                    </Col>
-                </Row>
-            </Container>
-
-            {/* project 2 */}
-            <Container className={ [styles.container, "p-5 mb-5" ].join(" ") }>
-                <Row>
-                    <Col className="col-4">
-                        <Image src={ require(`../../assets/images/temp.png`) } alt="Portfolio Image" fluid className={ styles.img }/>
-                    </Col>
-                    <Col className="col-8">
-                        <h5 className={ styles.title }>
-                            Ppoject Title
-                        </h5>
-
-                        <p className="pb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet vestibulum purus, sed bibendum augue. 
-                        In enim risus, viverra vitae lorem ac, fringilla gravida lorem. Nulla rutrum maximus lectus sit amet 
-                        pellentesque. Vestibulum interdum condimentum enim eget condimentum. Integer a bibendum turpis. Integer 
-                        suscipit elit fringilla dolor viverra, id lacinia purus fermentum. Fusce mollis nunc nec imperdiet condimentum
-                        </p>
-                        <Link role="button" to={`/projects/development/1}`} className={ styles.btn }>
-                            View Details
-                        </Link>
-                    </Col>
-                </Row>
-            </Container>
-
-            {/* project 3 */}
-            <Container className={ [styles.container, "p-5 mb-5" ].join(" ") }>
-                <Row>
-                    <Col className="col-4">
-                        <Image src={ require(`../../assets/images/temp.png`) } alt="Portfolio Image" fluid className={ styles.img }/>
-                    </Col>
-                    <Col className="col-8">
-                        <h5 className={ styles.title }>
-                            Ppoject Title
-                        </h5>
-
-                        <p className="pb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet vestibulum purus, sed bibendum augue. 
-                        In enim risus, viverra vitae lorem ac, fringilla gravida lorem. Nulla rutrum maximus lectus sit amet 
-                        pellentesque. Vestibulum interdum condimentum enim eget condimentum. Integer a bibendum turpis. Integer 
-                        suscipit elit fringilla dolor viverra, id lacinia purus fermentum. Fusce mollis nunc nec imperdiet condimentum
-                        </p>
-                        <Link role="button" to={`/projects/development/1}`} className={ styles.btn }>
-                            View Details
-                        </Link>
-                    </Col>
+            <Container className="m-o">
+                <Row className="row-cols-auto text-start">
+                {/* add cards from json file */
+                    Array.from({ length: 3 }).map((_, id) => (
+                        <Container className={ [styles.container, "p-5 mb-5" ].join(" ") }>
+                            <Row>
+                                <Col className="col-4">
+                                    <Image src={ require(`../../assets/images/projects/${data[id].cover[0]}`) } alt="Portfolio Image" fluid className={ styles.img }/>
+                                </Col>
+                                <Col className="col-8">
+                                    <h5 className={ styles.title }>{ data[id].title }</h5>
+                                    <p className="pb-3">{ data[id].description }</p>
+                                    <Link role="button" to={`/projects/uiux/${id+1}`} className={ styles.btn }>
+                                        View Details
+                                    </Link>
+                                </Col>
+                            </Row>
+                        </Container>
+                    ))}
                 </Row>
             </Container>
 
