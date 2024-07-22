@@ -4,7 +4,14 @@
         padding: 30px;
         text-align: center;
     }
+
     /* COLUMN 1 */
+    .img {
+        border-radius: 100%;
+        max-height: 150px;
+    }
+
+    /* COLUMN 2 */
     .heading {
         text-transform: none;
         font-weight: lighter;
@@ -25,54 +32,27 @@
         margin-bottom: 20px;
     }
 
-    .btn1 {
-        border: 1.4px solid var(--color3) !important;
-        background-color: var(--color3) !important;
-        border-radius: 7px;
-        font-size: 12px;
-        padding: 5px 40px;
-        margin: 10px 10px;
-        text-decoration: none !important;
-        color: white;
+    .iconGroup, .btnGroup {
+        align-items: center;
+        max-width: max-content;
     }
 
-    .btn1:hover {
-        border: 1.4px solid var(--color4) !important;
-        background-color: var(--color4) !important;
-        color: white;
-    }
-
-    .btn2 {
-        border: 1.4px solid var(--color3) !important;
-        background-color: white !important;
-        color: var(--color3);
-        border-radius: 7px;
-        font-size: 12px;
-        padding: 5px 40px;
-        margin: 10px 10px;
-        text-decoration: none !important;
-    }
-
-    .btn2:hover {
-        border: 1.4px solid var(--color4) !important;
-        background-color: white !important;
-        color: var(--color4);
-    }
-
-    /* COLUMN 2 */
-    .img {
-        border-radius: 100%;
-        max-height: 150px;
-    }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) {*/
     .row {
         padding: 50px;
     }
 
     /* COLUMN 1 */
+    .img {
+        max-height:400px !important;
+        border-radius: 50%;
+        pointer-events: none;
+    }
+
+    /* COLUMN 2 */
     .heading {
         text-transform: none;
         font-size: 24px;
@@ -104,7 +84,7 @@
         border: 1.4px solid var(--color3) !important;
         background-color: var(--color3) !important;
         border-radius: 7px;
-        margin-right: 30px;
+        margin-right: 20px;
         padding: 5px 40px;
         font-weight: 500;
         text-decoration: none !important;
@@ -121,7 +101,7 @@
         background-color: white !important;
         color: var(--color3);
         border-radius: 7px;
-        margin-right: 30px;
+        margin-left: 20px;
         padding: 5px 40px;
         font-weight: 500;
         text-decoration: none !important;
@@ -132,11 +112,3 @@
         background-color: white !important;
         color: var(--color4);
     }
-
-    /* COLUMN 2 */
-    .img {
-        max-height:400px !important;
-        border-radius: 50%;
-        pointer-events: none;
-    }
-}
