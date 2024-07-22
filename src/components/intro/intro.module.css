@@ -32,9 +32,26 @@
         margin-bottom: 20px;
     }
 
-    .iconGroup, .btnGroup {
+    .iconGroup {
         align-items: center;
         max-width: max-content;
+    }
+
+    .btn1 {
+        display: block;
+        margin: 0 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .btn2 {
+        display: block;
+        margin: 0 0 !important;
+    }
+
+    .btnGroup {
+        align-items: center;
+        max-width: max-content;
+        display: block !important;
     }
 
 }
