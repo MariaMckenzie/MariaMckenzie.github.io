@@ -54,9 +54,6 @@ function FooterComponent () {
                             <Link to="/resume" className={ styles.link }>
                                 Resume
                             </Link>
-                            <Link to="/certificate" className={ styles.link }>
-                                Certificates
-                            </Link>
                         </Container>
                     </Col>
                 </Row>
@@ -102,9 +99,6 @@ function FooterComponent () {
                     </Link>
                     <Link to="/resume" className={ styles.link }>
                         Resume
-                    </Link>
-                    <Link to="/certificate" className={ styles.link }>
-                        Certificates
                     </Link>
                 </Container>
             </Row>

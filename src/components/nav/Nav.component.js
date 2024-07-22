@@ -24,9 +24,6 @@ function NavComponent () {
                         <NavLink to="/resume" className={ styles.link }>
                             Resume
                         </NavLink>
-                        <NavLink to="/certificates" className={ styles.link }>
-                            Certificates
-                        </NavLink>
                         {/* <NavLink to="/contact-me" className={ styles.link }>
                             Contact
                         </NavLink> */}

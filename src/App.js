@@ -21,7 +21,6 @@ function App() {
                     <Route path="/resume" exact element={<ResumePage />} />
 					<Route path="/contact-me" exact element={<ContactPage />} />
 					<Route path="/projects/:type/:id" exact element={<ProjectPage />} />
-					<Route path="/certificates" exact element={<CertificatesPage />} />
                     
 					{/* Error Page */}
 					<Route path="/*" element={<ErrorPage />} />
