@@ -17,7 +17,7 @@ function DevProjectListComponent () {
                                 <Card.Img src={ require(`../../assets/images/projects/dev/${data[id].cover}`) }alt="Website Cover Image" fluid className={ styles.img }/>
                                 <Card.Title className={ styles.title }> { data[id].title } </Card.Title>
                                 <Card.Text className={ styles.text }> { data[id].description } </Card.Text>
-                                <Link role="button" to={`/projects/development/${id+1}`} className={ styles.btn }>View Details</Link>
+                                {/* <Link role="button" to={`/projects/development/${id+1}`} className={ styles.btn }>View Details</Link> */}
                             </Card>
                         </Col>
                     ))
