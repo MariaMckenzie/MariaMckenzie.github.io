@@ -18,7 +18,7 @@ function App() {
 					<Route path="/" element={<HomePage />} />
 					<Route path="/home" element={<HomePage />} />
 					<Route path="/portfolio" exact element={<PortfolioPage />} />
-                    <Route path="/resume" exact element={<ResumePage />} />
+                    		<Route path="/resume" exact element={<ResumePage />} />
 					<Route path="/contact-me" exact element={<ContactPage />} />
 					<Route path="/projects/:type/:id" exact element={<ProjectPage />} />
                     
