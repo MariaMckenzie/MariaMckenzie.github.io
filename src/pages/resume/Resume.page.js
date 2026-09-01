@@ -1,6 +1,5 @@
-import React from "react";
-import { Container, Image, Row } from "react-bootstrap";
-import img from "../../assets/images/under_construction.svg"
+import { Container, Row } from "react-bootstrap";
+import ResumeComponent from "../../components/resume/resume.component";
 import NavComponent from "../../components/nav/Nav.component";
 import FooterComponent from "../../components/footer/footer.component";
 import styles from "./Resume.module.css";
@@ -19,10 +18,17 @@ function ResumePage () {
                 <h3 className={ styles.heading }>Resume</h3>
             </Row>
 
-            <Row className="py-2">
+            {/* <Row className="py-2">
                 <Image src={img} alt="Under contruction image" fluid className={ styles.img } /> 
                 <h5 className={ styles.text }>Coming Soon</h5>
-            </Row>
+            </Row> */}
+
+            {/* resume section */}
+            <Container>
+                <Row className="py-4">
+					<ResumeComponent />
+				</Row>
+            </Container>
 
             {/* footer */}
             <Container className={ styles.container }>

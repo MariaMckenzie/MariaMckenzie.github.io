@@ -1,0 +1,63 @@
+{
+    "intro": {
+        "name": "Maria McKenzie",
+        "info": "Kingston, Jamaica (EST, GMT-5) | ****@gmail.com | +1 876 *** **** | www.linkedin.com/in/maria-mck"
+    },
+    "section": [
+        {
+        "name": "Maria McKenzie",
+        "info": ["Kingston, Jamaica (EST, GMT-5) | ****@gmail.com | +1 876 *** **** | www.linkedin.com/in/maria-mck"]
+    },
+        {
+            "name": "Professional Summary",
+            "info": [
+                "Results-driven Software Engineer with over 5 years of experience building scalable web applications and distributed systems using React, Node.js, and cloud platforms."
+            ]
+        },
+        {
+            "name": "Work Experience",
+            "info": [
+                "Senior Software Engineer at Tech Corp (2022 - Present): Led a team of 5 developers to rebuild the core checkout pipeline, reducing latency by 35% and increasing overall conversion rates."
+            ]
+        },
+        {
+            "name": "Education",
+            "info": [
+                "Bachelor of Science in Software Engineering, Minor in Economics | University of the West Indies"
+            ]
+        },
+        {
+            "name": "Skills",
+            "info": [
+                "JavaScript, TypeScript, React, Node.js, Python, PostgreSQL, Docker, AWS, Git, REST APIs, Agile Development."
+            ]
+        },
+        {
+            "name": "Software",
+            "info": [
+                "JavaScript, TypeScript, React, Node.js, Python, PostgreSQL, Docker, AWS, Git, REST APIs, Agile Development."
+            ]
+        },
+        {
+            "name": "Projects",
+            "info": [
+                "E-Commerce Platform: Built a full-stack platform supporting real-time inventory tracking and secure payment integration using Stripe and React."
+            ]
+        },
+        {
+            "name": "Interests",
+            "info": [
+                "E-Commerce Platform: Built a full-stack platform supporting real-time inventory tracking and secure payment integration using Stripe and React."
+            ]
+        },
+        {
+            "name": "Certifications & Licenses",
+            "info": [
+                "ISTQB Certified Tester Test Automation Engineer (CT-TAE) | 2024",
+                "ISTQB Certified Tester, Foundation Level (CT-FL) | 2023",
+                "QualityWorks UI Test Automation Bootcamp Certificate of Completion | 2022",
+                "Principles & Practices of Project Management Certificate of Completion | 2022"
+            ]
+        }
+    ]
+}

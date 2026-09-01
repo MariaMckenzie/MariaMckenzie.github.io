@@ -1,0 +1,135 @@
+/* Extra small up to medium devices (phones and tablets, 300px and up) */
+@media (max-width: 991px) {
+    .container {
+        padding: 30px;
+        text-align: center !important;
+    }
+
+    .heading {
+        color:  white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-weight: bold;
+    }
+
+    .card {
+        background: none;
+        border: none;
+        border-radius: 0;
+        height: 100%;
+        text-align: center !important;
+        padding-bottom: 50px;
+    }
+
+    .cardDecor {
+        border-top: 2px solid var(--color3);
+        border-top-width: 10px;
+        padding: 10px;
+        max-width: 70px;
+        margin: 0;
+        align-self: center !important;
+    }
+
+    .title {
+        font-size: 16px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .btn {
+        border: 1.4px solid white;
+        border-radius: 7px;
+        padding: 5px 15px;
+        max-width: fit-content;
+        background-color: none;
+        background: none;   
+        margin: 0;
+        margin-top: 10px;
+        font-weight: 500;
+        color: white;
+        align-self: center !important;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        /* color: #314D51; */
+        border: 1.4px solid white;
+        background-color: white;
+        color: var(--color5);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        padding: 50px;
+    }
+
+    .heading {
+        color:  white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-weight: bold;
+    }
+
+    .card {
+        /* opacity: 0.5; */
+        background: none;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .card2 {
+        /* opacity: 0.5; */
+        background: none;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cardDecor {
+        border-top: 1px solid var(--color3);
+        max-width: 100%;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 16px;
+        color: white;
+        padding: 0;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .btn {
+        border: 1.4px solid white;
+        border-radius: 7px;
+        padding: 5px 15px;
+        max-width: fit-content;
+        background-color: none !important;
+        background: none !important;   
+        margin: 0;
+        margin-top: auto;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        /* color: #314D51; */
+        border: 1.4px solid white;
+        background-color: white !important;
+        color: var(--color5);
+    }
+}
