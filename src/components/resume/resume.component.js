@@ -1,5 +1,13 @@
 import { Card, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import CertificatesSection from "./sections/certificates.section";
+import ExperienceSection from "./sections/experience.section";
+import EducationSection from "./sections/education.section";
+import InterestsSection from "./sections/interests.section";
+import IntroSection from "./sections/intro.section";
+import SkillsSection from "./sections/skills.section";
+import SoftwareSection from "./sections/software.section";
+import SummarySection from "./sections/summary.section";
 import data from "../../assets/data/resume.data.json";
 import styles from "./resume.module.css";
 
@@ -9,42 +17,42 @@ function ResumeComponent() {
 
             {/* introduction */}
             <Row className="pb-4">
-
+                <IntroSection />
             </Row>
 
             {/* professional summary */}
             <Row className="pb-4">
-                
+                <SummarySection />
             </Row>
 
             {/* work experience */}
             <Row className="pb-4">
-                
+                <ExperienceSection />
             </Row>
 
             {/* education */}
             <Row className="pb-4">
-                
+                <EducationSection />
             </Row>
 
             {/* certificates */}
             <Row className="pb-4">
-                
+                <CertificatesSection />
             </Row>
 
             {/* skills */}
             <Row className="pb-4">
-                
+                <SkillsSection />
             </Row>
 
             {/* software */}
             <Row className="pb-4">
-                
+                <SoftwareSection />
             </Row>
 
             {/* interests */}
             <Row className="pb-4">
-                
+                <InterestsSection />
             </Row>
 
 
