@@ -22,7 +22,6 @@ function ExperienceSection() {
                                 <span className="px-2">|</span>
                                 <span>{data.experience.info[id].location}</span>
                             </p>
-                            <Container></Container>
                             <p className={styles.text}>
                                 <ul className={styles.text}>
                                     {data.experience.info[id].bullets.map((bullet, idx) => (
@@ -33,6 +32,7 @@ function ExperienceSection() {
                     ))
                 }
             </Row>
+
         </Container>
     )
 }
