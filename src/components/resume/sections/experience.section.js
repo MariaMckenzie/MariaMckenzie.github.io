@@ -16,9 +16,9 @@ function ExperienceSection() {
                             <p className={styles.text}>
                                 <span>{data.experience.info[id].role}</span>
                                 <span className="px-2">|</span>
-                                <span>{data.experience.info[id].startDate} - {data.experience.info[id].endDate}</span>
-                                <span className="px-2">|</span>
                                 <span>{data.experience.info[id].company} ({data.experience.info[id].context})</span>
+                                <span className="px-2">|</span>
+                                <span>{data.experience.info[id].startDate} - {data.experience.info[id].endDate}</span>
                                 <span className="px-2">|</span>
                                 <span>{data.experience.info[id].location}</span>
                             </p>
