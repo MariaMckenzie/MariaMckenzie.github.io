@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import CertificatesSection from "./sections/certificates.section";
@@ -11,73 +12,75 @@ import SummarySection from "./sections/summary.section";
 import data from "../../assets/data/resume.data.json";
 import styles from "./resume.module.css";
 
+
+
 function ResumeComponent() {
     return (
-        <Container className={[styles.container, "m-0"].join(" ")}>
+        <Container className={[styles.container, "m-0 p-4"].join(" ")}>
 
             {/* introduction */}
-            <Row className="pb-4">
+            <Row className="pb-1">
                 <IntroSection />
             </Row>
 
             {/* professional summary */}
-            <Row className="pb-4">
+            <Row className="pb-1">
                 <SummarySection />
             </Row>
 
             {/* work experience */}
-            <Row className="pb-4">
+            <Row className="pb-1">
                 <ExperienceSection />
             </Row>
 
-            {/* education */}
-            <Row className="pb-4">
+            {/* education 
+            <Row className="pb-1">
                 <EducationSection />
             </Row>
 
-            {/* certificates */}
-            <Row className="pb-4">
+            {/* certificates 
+            <Row className="pb-1">
                 <CertificatesSection />
             </Row>
 
-            {/* skills */}
-            <Row className="pb-4">
+            {/* skills 
+            <Row className="pb-1">
                 <SkillsSection />
             </Row>
 
-            {/* software */}
-            <Row className="pb-4">
+            {/* software 
+            <Row className="pb-1">
                 <SoftwareSection />
             </Row>
 
-            {/* interests */}
-            <Row className="pb-4">
+            {/* interests 
+            <Row className="pb-0">
                 <InterestsSection />
-            </Row>
+            </Row> */}
 
 
 
-            <Row className="text-start">
+             {/* <Row className="text-start"> */}
                 {/* add cards from json file */
-                    Array.from({ length: data.section.length }).map((_, id) => (
-                        <Row key={`resume-${id}`} className="me-auto">
-                            <Card className={styles.card}>
-                                <Card.Title className={styles.title}> {data.section[id].name} </Card.Title>
-                                <Container className={styles.cardDecor}></Container>
-                                <Card.Text className={styles.text}><ul className={styles.text}>
-                                    {data.section[id].info.map((bullet, idx) => (
-                                        <li key={idx}>{bullet}</li>
-                                    ))}
-                                </ul> </Card.Text>
-                            </Card>
-                        </Row>
-                    ))
+                    // Array.from({ length: data.section.length }).map((_, id) => (
+                    //     <Row key={`resume-${id}`} className="me-auto">
+                    //         <Card className={styles.card}>
+                    //             <Card.Title className={styles.title}> {data.section[id].name} </Card.Title>
+                    //             <Container className={styles.cardDecor}></Container>
+                    //             <Card.Text className={styles.text}><ul className={styles.text}>
+                    //                 {/* {data.section[id].info.map((bullet, idx) => (
+                    //                     <li key={idx}>{bullet}</li>
+                    //                 ))} */}
+                    //             </ul> </Card.Text>
+                    //         </Card>
+                    //     </Row>
+                    // ))
                 }
-            </Row>
+            {/* </Row>  */}
 
-            <Row>
+            {/* <Row>
                 <Link role="button" to="/portfolio" className={styles.btn}>View Projects</Link>
-            </Row>
+            </Row> */}
         </Container>
     )
 }
